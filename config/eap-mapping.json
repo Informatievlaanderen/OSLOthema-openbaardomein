@@ -33,7 +33,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "objectcatalogus-begraafplaats",
+    "name": "begraafplaats",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Begraafplaatsen",
@@ -64,7 +64,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-gebieden",
+    "name": "gebieden",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Gebied",
@@ -80,7 +80,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-infrastructuurelementen",
+    "name": "infrastructuurelementen",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-InfrastructuurElement",
@@ -96,7 +96,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-onbegroeid-voorkomen",
+    "name": "onbegroeid-voorkomen",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-OnbegroeidVoorkomen",
@@ -112,7 +112,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-begroeid-voorkomen",
+    "name": "begroeid-voorkomen",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
@@ -128,7 +128,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-terreindeel",
+    "name": "terreindeel",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Terreindeel",
@@ -144,7 +144,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-vegetatie-elementen",
+    "name": "vegetatie-elementen",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-VegetatieElement",
@@ -160,7 +160,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-waterdeel",
+    "name": "waterdeel",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Waterdeel",
@@ -176,7 +176,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "objectcatalogus-watervoorkomen",
+    "name": "watervoorkomen",
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-WaterVoorkomen",
