@@ -93,7 +93,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "onbegroeid-voorkomen",
+    "name": "onbegroeid-voorkomen-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-OnbegroeidVoorkomen",
@@ -199,7 +199,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "onbegroeid-voorkomen",
+    "name": "onbegroeid-voorkomen-voc",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
