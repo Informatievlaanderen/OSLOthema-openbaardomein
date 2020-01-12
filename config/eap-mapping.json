@@ -168,7 +168,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "watervoorkomen",
+    "name": "watervoorkomen-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-WaterVoorkomen",
@@ -313,7 +313,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "watervoorkomen",
+    "name": "watervoorkomen-voc",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
