@@ -153,7 +153,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "waterdeel",
+    "name": "waterdeel-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Waterdeel",
@@ -296,7 +296,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "waterdeel",
+    "name": "waterdeel-voc",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
