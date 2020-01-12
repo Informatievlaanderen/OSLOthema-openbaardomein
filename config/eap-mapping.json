@@ -123,7 +123,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "terreindeel",
+    "name": "terreindeel-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Terreindeel",
@@ -263,7 +263,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "terreindeel",
+    "name": "terreindeel-voc",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
