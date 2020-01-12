@@ -58,7 +58,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/begraafplaatsenbeheer",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -74,9 +73,8 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-gebieden",
-	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
@@ -90,7 +88,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-infrastructuurelementen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -106,7 +103,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-onbegroeid-voorkomen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -122,7 +118,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-begroeid-voorkomen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -138,7 +133,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-terreindeel",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -154,7 +148,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-vegetatie-elementen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -170,7 +163,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-waterdeel",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -186,7 +178,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-ap.json",
     "site": "site-skeleton/objectcatalogus-watervoorkomen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -203,7 +194,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/begraafplaats",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -220,7 +210,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/onbegroeid-voorkomen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -237,7 +226,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeletoni/begroeid-voorkomen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -254,7 +242,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/gebied",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -271,7 +258,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/infrastructuur",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -289,7 +275,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/terreindeel",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -306,7 +291,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/vegetatie",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -324,7 +308,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/waterdeel",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
@@ -341,7 +324,6 @@
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-    "config" : "config/config-voc.json",
     "site": "site-skeleton/watervoorkomen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
