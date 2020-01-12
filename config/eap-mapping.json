@@ -34,7 +34,7 @@
   },
   {
     "name": "begraafplaats-ap",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Begraafplaatsen",
     "template": "objectcatalogus-begraafplaats-oj.j2",
@@ -64,7 +64,7 @@
   },
   {
     "name": "gebieden",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Gebied",
     "template": "objectcatalogus-gebieden-oj.j2",
@@ -79,7 +79,7 @@
   },
   {
     "name": "infrastructuurelementen",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-InfrastructuurElement",
     "template": "objectcatalogus-infrastructuurelementen-oj.j2",
@@ -94,7 +94,7 @@
   },
   {
     "name": "onbegroeid-voorkomen",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-OnbegroeidVoorkomen",
     "template": "objectcatalogus-onbegroeid-voorkomen-oj.j2",
@@ -109,7 +109,7 @@
   },
   {
     "name": "begroeid-voorkomen",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
     "template": "objectcatalogus-begroeid-voorkomen-oj.j2",
@@ -124,7 +124,7 @@
   },
   {
     "name": "terreindeel",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Terreindeel",
     "template": "objectcatalogus-terreindeel-oj.j2",
@@ -139,7 +139,7 @@
   },
   {
     "name": "vegetatie-elementen",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-VegetatieElement",
     "template": "objectcatalogus-vegetatie-elementen-oj.j2",
@@ -154,7 +154,7 @@
   },
   {
     "name": "waterdeel",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Waterdeel",
     "template": "objectcatalogus-waterdeel-oj.j2",
@@ -169,7 +169,7 @@
   },
   {
     "name": "watervoorkomen",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-WaterVoorkomen",
     "template": "objectcatalogus-watervoorkomen-oj.j2",
