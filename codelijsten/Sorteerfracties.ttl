@@ -163,8 +163,7 @@
 <https://data.vlaanderen.be/id/concept/Sorteerfracties/PMD>
    a skos:Concept ;
    skos:prefLabel "PMD"@nl ;
-   skos:definition "Plastic flessen en flacons
-, metalen verpakkingen en drankkartons."@nl ;
+   skos:definition "Plastic flessen en flacons, metalen verpakkingen en drankkartons."@nl ;
    skos:notation "PMD"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Sorteerfracties> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Sorteerfracties> .
