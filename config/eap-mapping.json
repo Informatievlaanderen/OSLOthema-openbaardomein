@@ -1,10 +1,9 @@
 [
 {
-    "name": "openbaardomein",
+    "name": "openbaar-domein",
     "type": "voc",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Model",
-
     "template": "openbaardomein-voc.j2",
 	"title": "Openbaar Domein",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
@@ -17,12 +16,12 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "openbaar-domein",
+    "name": "openbaar-domein-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Model",
     "template": "openbaar-domein-ap.j2",
-    "title": "Openbaar Domein",
+    "title": "Openbaar Domein (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "27-11-2018",
     "contributors-file": "stakeholders.csv",
@@ -63,7 +62,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "gebieden",
+    "name": "gebieden-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Gebied",
@@ -78,7 +77,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "infrastructuurelementen",
+    "name": "infrastructuurelementen-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-InfrastructuurElement",
@@ -108,17 +107,33 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "begroeid-voorkomen",
+    "name": "begroeid-voorkomen-ap",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
     "template": "objectcatalogus-begroeid-voorkomen-oj.j2",
-    "title": "Objectcatalogus Begroeid Voorkomen",
+    "title": "Begroeid Voorkomen (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "niet-bepaald",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
     "site": "site-skeleton/objectcatalogus-begroeid-voorkomen",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
+  },
+  {
+    "name": "begroeid-voorkomen",
+    "type": "voc",
+    "prefix": "openbaardomein",
+    "eap": "OSLO-Openbaar-Domein.eap",
+    "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
+    "template": "openbaardomein-uitbreiding-voc.j2",
+	"title": "Begroeid voorkomen",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "niet-bepaald",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "OpenbaarDomein",
+    "site": "site-skeletoni/begroeid-voorkomen",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
@@ -215,22 +230,6 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
-    "name": "begroeid-voorkomen",
-    "type": "voc",
-    "prefix": "openbaardomein",
-    "eap": "OSLO-Openbaar-Domein.eap",
-    "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
-    "template": "openbaardomein-uitbreiding-voc.j2",
-	"title": "Begroeid voorkomen",
-    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "niet-bepaald",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "OpenbaarDomein",
-    "site": "site-skeletoni/begroeid-voorkomen",
-	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
-  },
-  {
     "name": "gebied",
     "type": "voc",
     "prefix": "openbaardomein",
@@ -301,7 +300,6 @@
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Waterdeel",
-
     "template": "openbaardomein-uitbreiding-voc.j2",
 	"title": "Waterdeel",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
