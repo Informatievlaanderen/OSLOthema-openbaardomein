@@ -33,7 +33,7 @@
   },
   {
     "name": "begraafplaats-ap",
-    "type": "ap",
+    "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Begraafplaatsen",
     "template": "objectcatalogus-begraafplaats-oj.j2",
