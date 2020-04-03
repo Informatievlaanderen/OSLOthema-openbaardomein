@@ -217,7 +217,7 @@
     "type": "oj",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Terreindeel",
-    "template": "objectcatalogus-terreindeel-oj.j2",
+    "template": "objectcatalogus-terreindelen-oj.j2",
     "title": "Terreindelen (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
