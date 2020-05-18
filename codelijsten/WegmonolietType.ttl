@@ -1,0 +1,45 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/WegmonolietType>
+   a skos:ConceptScheme ;
+   dct:modified "2020-04-01" ;
+   skos:definition "Typering voor Wegmonolieten." ;
+   skos:prefLabel "WegmonolietType"@nl .
+
+<https://data.vlaanderen.be/id/concept/WegmonolietType/OmklapbareWegmonoliet>
+   a skos:Concept ;
+   skos:prefLabel "Omklapbare wegmonoliet"@nl ;
+   skos:definition "Een omklapbaar massief obstakel dat de doorgang van voertuigen kan beletten en dynamisch is in aard."@nl ;
+   skos:note "Naar GRB-skeletaanvulling detail - WPI14: Wegmonoliet."@nl ;
+   skos:notation "Omklapbare wegmonoliet"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> .
+   
+<https://data.vlaanderen.be/id/concept/WegmonolietType/StatischeWegmonoliet>
+   a skos:Concept ;
+   skos:prefLabel "Statische wegmonoliet"@nl ;
+   skos:definition "Een niet-verzinkbaar massief obstakel dat de doorgang van voertuigen belet."@nl ;
+   skos:note "Bijvoorbeeld Amsterdammers. Naar GRB-skeletaanvulling detail - WPI14: Wegmonoliet."@nl ;
+   skos:notation "Statische wegmonoliet"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> .
+   
+<https://data.vlaanderen.be/id/concept/WegmonolietType/VerzinkbareWegmonoliet>
+   a skos:Concept ;
+   skos:prefLabel "Verzinkbare wegmonoliet"@nl ;
+   skos:definition "Een verzinkbaar massief obstakel dat de doorgang van voertuigen belet."@nl ;
+   skos:note "Naar GRB-skeletaanvulling detail - WPI14: Wegmonoliet (afgeleid)."@nl ;
+   skos:notation "Verzinkbare wegmonoliet"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> .
+   
+<https://data.vlaanderen.be/id/concept/WegmonolietType/WegneembareWegmonoliet>
+   a skos:Concept ;
+   skos:prefLabel "Wegneembare wegmonoliet"@nl ;
+   skos:definition "Een wegneembaar obstakel dat de doorgang van voertuigen belet en niet dynamisch is in aard."@nl ;
+   skos:note "Enkel manueel verwijderbaar. Naar GRB-skeletaanvulling detail - WPI14: Wegmonoliet (afgeleid)."@nl ;
+   skos:notation "Wegneembare wegmonoliet"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/WegmonolietType> .
