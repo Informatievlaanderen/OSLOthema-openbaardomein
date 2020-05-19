@@ -36,10 +36,6 @@
                             "parent": "Bestendige afsluiting"          
                           },  
                           {
-                            "name": "Hekwerk",
-                            "parent": "Bestendige afsluiting"          
-                          },  
-                          {
                             "name": "Afsluiting spandraad en -ketting",
                             "parent": "Bestendige afsluiting"          
                           }                               
@@ -257,13 +253,7 @@
                       },  
                       {
                         "name": "Openbaar toilet",
-                        "parent": "Straatmeubilair",
-                        "children": [ 
-                          {
-                            "name": "Hondenpoepbuis",
-                            "parent": "Openbaar toilet"         
-                          }
-                        ]
+                        "parent": "Straatmeubilair"
                       },  
                       {
                         "name": "Openbare brievenbus",
@@ -291,7 +281,13 @@
                       },  
                       {
                         "name": "Openbare vuilnisbak",
-                        "parent": "Straatmeubilair"         
+                        "parent": "Straatmeubilair",
+                        "children": [ 
+                          {
+                            "name": "Hondenpoepbuis",
+                            "parent": "Openbare vuilnisbak"         
+                          }
+                        ]         
                       },
                       {
                         "name": "Bovengrondse brandkraan",
@@ -364,16 +360,16 @@
                               {
                                 "name": "Stootband dupuis",
                                 "parent": "Stootband"         
+                              },
+                              {
+                                "name": "Biggetje",
+                                "parent": "Stootband"         
                               } 
                             ] 
                           }, 
                           {
                             "name": "Vangrail",
                             "parent": "Longitudinale weginrichting"        
-                          },
-                          {
-                            "name": "Biggetje",
-                            "parent": "Longitudinale weginrichting"         
                           },
                           {
                             "name": "Muur binnen de wegbaan",
@@ -447,6 +443,10 @@
                           },
                           {
                             "name": "Verkeersbord",
+                            "parent": "Wegsignalisatie"
+                          },
+                          {
+                            "name": "Reflectorpaal",
                             "parent": "Wegsignalisatie"
                           },
                           {
