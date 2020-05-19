@@ -12,7 +12,7 @@
     "contributors-column": "OpenbaarDomein",
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/openbaar-domein",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -21,14 +21,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Model",
     "template": "openbaar-domein-voc.j2",
-	"title": "Openbaar Domein (Vocabularium)",
+    "title": "Openbaar Domein (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/openbaar-domein",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -42,9 +42,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-begraafplaatsen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -54,14 +54,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Begraafplaatsen",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Begraafplaats (Vocabularium)",
+    "title": "Begraafplaats (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/begraafplaats",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -75,9 +75,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/begraafplaatsenbeheer",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -91,9 +91,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-gebieden",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -103,14 +103,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Gebied",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Gebied (Vocabularium)",
+    "title": "Gebied (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/gebied",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -124,9 +124,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-infrastructuurelementen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -136,14 +136,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-InfrastructuurElement",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Infrastructuur (Vocabularium)",
+    "title": "Infrastructuur (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/infrastructuur",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -157,9 +157,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-onbegroeid-voorkomen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -169,14 +169,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-OnbegroeidVoorkomen",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Onbegroeid Voorkomen (Vocabularium)",
+    "title": "Onbegroeid Voorkomen (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/onbegroeid-voorkomen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -190,9 +190,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-begroeid-voorkomen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -202,14 +202,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Begroeid Voorkomen (Vocabularium)",
+    "title": "Begroeid Voorkomen (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/begroeid-voorkomen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -223,9 +223,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-terreindelen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -235,14 +235,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Terreindeel",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Terreindeel (Vocabularium)",
+    "title": "Terreindeel (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/terreindeel",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -256,9 +256,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-vegetatie-elementen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -268,14 +268,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-VegetatieElement",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Vegetatie (Vocabularium)",
+    "title": "Vegetatie (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/vegetatie",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -289,9 +289,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-waterdelen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -301,14 +301,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Waterdeel",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Waterdeel (Vocabularium)",
+    "title": "Waterdeel (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/waterdeel",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -322,9 +322,9 @@
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-watervoorkomen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
@@ -334,14 +334,14 @@
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-WaterVoorkomen",
     "template": "openbaar-domein-uitbreiding-voc.j2",
-	"title": "Watervoorkomen (Vocabularium)",
+    "title": "Watervoorkomen (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
     "publication-date": "2020-04-01",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "OpenbaarDomein",
-	"licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/watervoorkomen",
-	"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   }
 ]
