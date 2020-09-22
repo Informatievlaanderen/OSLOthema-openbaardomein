@@ -1,11 +1,12 @@
 {
   "naam": "Openbaar Domein",
+  "rapport" : "",
   "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
   "publicatiedatum": "2018-11-27",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Vocabularium & applicatieprofielen",
-  "description_file" : "openbaar-domein.md",
+  "beschrijving" : "openbaar-domein.md",
   "specificatiedocument": [
     {
       "naam" : "Basisprofiel Openbaar Domein",
