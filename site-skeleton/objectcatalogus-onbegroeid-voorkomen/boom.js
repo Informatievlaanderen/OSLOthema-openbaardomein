@@ -16,6 +16,10 @@
                     "parent": "Onbegroeid Voorkomen",
                     "children": [
                       {
+                        "name": "Grasbetontegel",
+                        "parent": "Bestrating"
+                      },
+                      {
                         "name": "Betonstraatsteen",
                         "parent": "Bestrating"
                       },
@@ -94,10 +98,6 @@
                         "parent": "Andere verharding"
                       },
                       {
-                        "name": "Grindplaat",
-                        "parent": "Andere verharding"
-                      },
-                      {
                         "name": "Zand",
                         "parent": "Andere verharding"
                       },
@@ -111,6 +111,10 @@
                       },
                       {
                         "name": "Schors",
+                        "parent": "Andere verharding"
+                      },
+                      {
+                        "name": "Grindgazon",
                         "parent": "Andere verharding"
                       },
                       {

@@ -36,6 +36,10 @@
                             "parent": "Bestendige afsluiting"          
                           },  
                           {
+                            "name": "Hekwerk",
+                            "parent": "Bestendige afsluiting"          
+                          },  
+                          {
                             "name": "Afsluiting spandraad en -ketting",
                             "parent": "Bestendige afsluiting"          
                           }                               
@@ -213,7 +217,7 @@
                   },
                   {
                     "name": "Speel- en sportvoorziening",
-                    "parent": "Infrastructuurelement"
+                    "parent": "Infrastructuurelement"          
                   },
                   {
                     "name": "Meerpaal",
@@ -234,15 +238,7 @@
                       {
                         "name": "Fietsstalling",
                         "parent": "Straatmeubilair"         
-                      },
-                      {
-                        "name": "Infozuil",
-                        "parent": "Straatmeubilair"         
-                      },
-                      {
-                        "name": "Fontein",
-                        "parent": "Straatmeubilair"         
-                      },
+                      },    
                       {
                         "name": "Picknicktafel",
                         "parent": "Straatmeubilair"         
@@ -253,7 +249,7 @@
                       },  
                       {
                         "name": "Openbaar toilet",
-                        "parent": "Straatmeubilair"
+                        "parent": "Straatmeubilair"         
                       },  
                       {
                         "name": "Openbare brievenbus",
@@ -281,13 +277,7 @@
                       },  
                       {
                         "name": "Openbare vuilnisbak",
-                        "parent": "Straatmeubilair",
-                        "children": [ 
-                          {
-                            "name": "Hondenpoepbuis",
-                            "parent": "Openbare vuilnisbak"         
-                          }
-                        ]         
+                        "parent": "Straatmeubilair"         
                       },
                       {
                         "name": "Bovengrondse brandkraan",
@@ -299,10 +289,6 @@
                       },
                       {
                         "name": "Oplaadpunt",
-                        "parent": "Straatmeubilair"         
-                      },
-                      {
-                        "name": "Aanplakbord",
                         "parent": "Straatmeubilair"         
                       },
                       {
@@ -360,10 +346,6 @@
                               {
                                 "name": "Stootband dupuis",
                                 "parent": "Stootband"         
-                              },
-                              {
-                                "name": "Biggetje",
-                                "parent": "Stootband"         
                               } 
                             ] 
                           }, 
@@ -372,7 +354,11 @@
                             "parent": "Longitudinale weginrichting"        
                           },
                           {
-                            "name": "Muur binnen de wegbaan",
+                            "name": "Biggetje",
+                            "parent": "Longitudinale weginrichting"         
+                          },
+                          {
+                            "name": "MuurBinnenWegbaan",
                             "parent": "Longitudinale weginrichting"         
                           },
                           {
@@ -395,7 +381,25 @@
                       },
                       {
                         "name": "Wegmonoliet",
-                        "parent": "Selectieve afsluiting"         
+                        "parent": "Selectieve afsluiting",
+                        "children": [
+                          {
+                            "name": "Statische wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          },
+                          {
+                            "name": "Verzinkbare wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          },
+                          {
+                            "name": "Omklapbare wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          },
+                          {
+                            "name": "Wegneembare wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          }                               
+                        ]          
                       }
                     ]         
                   }, 
@@ -443,10 +447,6 @@
                           },
                           {
                             "name": "Verkeersbord",
-                            "parent": "Wegsignalisatie"
-                          },
-                          {
-                            "name": "Reflectorpaal",
                             "parent": "Wegsignalisatie"
                           },
                           {

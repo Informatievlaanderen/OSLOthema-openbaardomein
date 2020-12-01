@@ -56,11 +56,7 @@
                         {
                             "name": "Boordsteen",
                             "parent": "Wegbaan"
-                        },
-                        {
-                            "name": "Kantsteen",
-                            "parent": "Wegbaan"
-                        } 
+                        }                      
                       ]
                   },
                   {
@@ -84,7 +80,7 @@
                       "parent": "Terreindeel"
                   },
                   {
-                      "name": "Hondenuitlaatplaats",
+                      "name": "Hondenloopzone",
                       "parent": "Terreindeel"
                   },
                   {
