@@ -1,6 +1,6 @@
 {
   "naam": "Openbaar Domein 2.0.0 - Applicatieprofiel Begroeid Voorkomen",
-  "rapport": "",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/report/doc/applicatieprofiel/begroeid-voorkomen/kandidaatstandaard/2020-06-18/all-begroeid-voorkomen-ap.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
   "publicatiedatum": "TBD",
@@ -41,7 +41,7 @@
   ],
   "functioneel_toepassingsgebied": "Inventarisatie van objecten op het openbaar domein.",
   "organisatorisch_werkingsgebied": "Steden, gemeenten en alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": " 20 november 201",
+  "datum_van_aanmelding": " 20 november 2019",
   "erkenning_werkgroep_datastandaarden": " TBD",
   "erkenning_stuurgroep": "TBD"
 }

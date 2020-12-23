@@ -1,6 +1,6 @@
 {
   "naam": "Openbaar Domein - Applicatieprofiel Onbegroeid Voorkomen",
-  "rapport" : "",
+  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/openbaardomein.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
   "publicatiedatum": "2018-11-27",
