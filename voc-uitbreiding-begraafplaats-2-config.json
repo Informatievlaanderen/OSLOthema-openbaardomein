@@ -1,6 +1,6 @@
 {
   "naam": "Openbaar Domein 2.0.0 - Uitbreiding Begraafplaats",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/report/doc/vocabularium/openbaardomein/begraafplaats/kandidaatstandaard/2020-06-18/all-begraafplaats-voc.jsonld",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/begraafplaats/kandidaatstandaard/2020-06-18/all-begraafplaats-voc.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
   "publicatiedatum": "TBD",

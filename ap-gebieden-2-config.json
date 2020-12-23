@@ -1,6 +1,6 @@
 {
   "naam": "Openbaar Domein 2.0.0 - Applicatieprofiel Gebieden",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/report/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18/all-gebieden-ap.jsonld",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18/all-gebieden-ap.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
   "publicatiedatum": "TBD",
