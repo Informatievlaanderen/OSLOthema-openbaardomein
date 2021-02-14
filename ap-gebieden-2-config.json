@@ -9,8 +9,8 @@
   "beschrijving": "ap-openbaar-domein.md",
   "specificatiedocument": [
     {
-      "naam": "https://test.data.vlaanderen.be/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18",
-      "waarde": "Applicatieprofiel Gebieden"
+      "naam": "Applicatieprofiel Gebieden",
+      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18"
     }
   ],
   "documentatie": [],

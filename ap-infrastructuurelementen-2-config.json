@@ -9,8 +9,8 @@
   "beschrijving": "ap-openbaar-domein.md",
   "specificatiedocument": [
     {
-      "naam": "https://test.data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/kandidaatstandaard/2020-06-18",
-      "waarde": "Applicatieprofiel Infrastructuurelementen"
+      "naam": "Applicatieprofiel Infrastructuurelementen",
+      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/kandidaatstandaard/2020-06-18"
     }
   ],
   "documentatie": [],

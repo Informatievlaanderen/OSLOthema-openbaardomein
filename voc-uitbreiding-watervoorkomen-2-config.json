@@ -9,8 +9,8 @@
   "beschrijving": "voc-openbaar-domein.md",
   "specificatiedocument": [
     {
-      "naam": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen/kandidaatstandaard/2020-06-18",
-      "waarde": "Uitbreiding Watervoorkomen"
+      "naam": "Uitbreiding Watervoorkomen",
+      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen/kandidaatstandaard/2020-06-18"
     }
   ],
   "documentatie": [],
