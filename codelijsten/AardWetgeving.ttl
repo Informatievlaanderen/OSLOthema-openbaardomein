@@ -66,8 +66,8 @@
 
 <https://data.vlaanderen.be/id/concept/AardWetgeving/GecoordineerdeWetten>
    a skos:Concept ;
-   skos:prefLabel "gecoördineerde wetten"@nl ;
-   skos:definition "Een verzameling van wettelijke bepalingen over hetzelfde onderwerp die in één tekst worden samengebracht en geordend."@nl ;
+   skos:prefLabel "gecoÃ¶rdineerde wetten"@nl ;
+   skos:definition "Een verzameling van wettelijke bepalingen over hetzelfde onderwerp die in Ã©Ã©n tekst worden samengebracht en geordend."@nl ;
    skos:notation "GecoordineerdeWetten"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AardWetgeving> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AardWetgeving> .
@@ -115,7 +115,7 @@
 <https://data.vlaanderen.be/id/concept/AardWetgeving/KoninklijkBesluit>
    a skos:Concept ;
    skos:prefLabel "koninklijk besluit"@nl ;
-   skos:definition "Norm uitgevaardigd door de Koning, medeondertekend door één of meer federale ministers, ter uitvoering van een wet."@nl ;
+   skos:definition "Norm uitgevaardigd door de Koning, medeondertekend door Ã©Ã©n of meer federale ministers, ter uitvoering van een wet."@nl ;
    skos:notation "KoninklijkBesluit"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AardWetgeving> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AardWetgeving> .
@@ -131,7 +131,7 @@
 <https://data.vlaanderen.be/id/concept/AardWetgeving/MinisterieelBesluit>
    a skos:Concept ;
    skos:prefLabel "ministerieel besluit"@nl ;
-   skos:definition "Norm uitgevaardigd door één of meer ministers ter uitvoering van een regeringsbesluit."@nl ;
+   skos:definition "Norm uitgevaardigd door Ã©Ã©n of meer ministers ter uitvoering van een regeringsbesluit."@nl ;
    skos:notation "MinisterieelBesluit"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AardWetgeving> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AardWetgeving> .
