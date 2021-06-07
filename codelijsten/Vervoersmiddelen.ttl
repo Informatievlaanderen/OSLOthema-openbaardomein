@@ -11,7 +11,7 @@
 <https://data.vlaanderen.be/id/concept/Vervoersmiddelen/Fiets>
    a skos:Concept ;
    skos:prefLabel "Fiets"@nl ;
-   skos:definition "Tweewielig voertuig dat wordt voortbewogen door op pedalen te trappen: een elektrische fiets fiets waarbij een deel van de voor het trappen benodigde energie wordt geleverd door een of meer accu's."@nl ;
+   skos:definition "Tweewielig voertuig dat wordt voortbewogen door op pedalen te trappen (waarbij een deel van de voor het trappen benodigde energie wordt geleverd door een of meer accu's, in het geval van een elektrische fiets)."@nl ;
    skos:notation "Fiets"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Vervoersmiddelen> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Vervoersmiddelen> .
