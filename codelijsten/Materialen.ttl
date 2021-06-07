@@ -8,7 +8,7 @@
    skos:definition "Materiaal waaruit iets vervaardigd is."@nl ;
    skos:prefLabel "Materialen"@nl .
 
-<https://data.vlaanderen.be/id/concept/DekselVorm/Beton>
+<https://data.vlaanderen.be/id/concept/Materialen/Beton>
    a skos:Concept ;
    skos:prefLabel "Beton"@nl ;
    skos:definition "Kunstmatig steenachtig materiaal; mengsel van cement, kalk, zand, water met kiezel enz."@nl ;
@@ -16,7 +16,7 @@
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Materialen> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Materialen> .
 
-<https://data.vlaanderen.be/id/concept/DekselVorm/Kunststof>
+<https://data.vlaanderen.be/id/concept/Materialen/Kunststof>
    a skos:Concept ;
    skos:prefLabel "Kunststof"@nl ;
    skos:definition "Langs chemische weg verkregen grondstof."@nl ;
