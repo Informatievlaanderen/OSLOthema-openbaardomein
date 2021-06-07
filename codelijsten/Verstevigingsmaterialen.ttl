@@ -1,0 +1,25 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/Verstevigingsmaterialen>
+   a skos:ConceptScheme ;
+   dct:modified "2021-06-01" ;
+   skos:definition "Materiaal waaruit iets vervaardigd is."@nl ;
+   skos:prefLabel "Materialen"@nl .
+
+<https://data.vlaanderen.be/id/concept/Verstevigingsmaterialen/Grasbetontegel>
+   a skos:Concept ;
+   skos:prefLabel "Beton"@nl ;
+   skos:definition "Grasbetontegels zijn overeenkomstig PTV 121."@nl ;
+   skos:notation "Beton"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Materialen> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Materialen> .
+
+<https://data.vlaanderen.be/id/concept/Verstevigingsmaterialen/Kunststofplaat>
+   a skos:Concept ;
+   skos:prefLabel "Kunststofplaat"@nl ;
+   skos:definition "Plaat vervaardigd uit kunststof, met raatvormige structuur."@nl ;
+   skos:notation "Kunststofplaat"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verstevigingsmaterialen> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verstevigingsmaterialen> .
