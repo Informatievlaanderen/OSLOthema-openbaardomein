@@ -1,11 +1,11 @@
  var treeData = [
               {
-                "name": "Vegetatie Element",
+                "name": "Vegetatie element",
                 "parent": "null",
                 "children": [
                   {
                     "name": "Plantbakvorm",
-                    "parent": "Vegetatie Element",
+                    "parent": "Vegetatie element",
                     "children": [
                       {
                         "name": "Plantbak",
@@ -27,7 +27,7 @@
                   },
                   {
                     "name": "Boomvorm",
-                    "parent": "Vegetatie Element",
+                    "parent": "Vegetatie element",
                     "children": [
                       {
                         "name": "Opgaande boom",
@@ -59,7 +59,7 @@
                   },
                   {
                     "name": "Klimvorm",
-                    "parent": "Vegetatie Element",
+                    "parent": "Vegetatie element",
                     "children": [
                       {
                         "name": "Zelfhechtende klimvorm",
@@ -73,11 +73,11 @@
                   },
                   {
                     "name": "Muurvegetatie",
-                    "parent": "Vegetatie Element"
+                    "parent": "Vegetatie element"
                   },
                   {
                     "name": "Solitaire heester",
-                    "parent": "Vegetatie Element"
+                    "parent": "Vegetatie element"
                   }
                 ]
               }
