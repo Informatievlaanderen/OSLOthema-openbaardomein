@@ -20,6 +20,10 @@
                             "parent": "Grasland"
                           },
                           {
+                            "name": "Bloemenakker",
+                            "parent": "Grasland"
+                          },
+                          {
                             "name": "Hooiland",
                             "parent": "Grasland"
                           },
@@ -77,23 +81,25 @@
                             "name": "Kleinfruit",
                             "parent": "Heester"
                           },
-                           {
+                          {
                             "name": "Bodembedekkende heesters",
                             "parent": "Heester"
                           }
                         ]
                       },
                       {
-                        "name": "Heg",
-                        "parent": "Houtachtigen"
-                      },
-                      {
                         "name": "Haag",
-                        "parent": "Houtachtigen"
-                      },
-                      {
-                        "name": "Geschoren haag",
-                        "parent": "Houtachtigen"
+                        "parent": "Houtachtigen",
+                        "children": [
+                          {
+                            "name": "Heg",
+                            "parent": "Haag"
+                          },
+                          {
+                            "name": "Geschoren haag",
+                            "parent": "Haag"
+                          }
+                        ]
                       },
                       {
                         "name": "Houtkant",
@@ -158,11 +164,7 @@
                       {
                         "name": "Bol- en knolgewassen",
                         "parent": "Sierbeplanting"
-                      },
-                      {
-                        "name": "Bloemenakker",
-                        "parent": "Sierbeplanting"
-                      }                    
+                      }                  
                     ]
                   },
                   {
