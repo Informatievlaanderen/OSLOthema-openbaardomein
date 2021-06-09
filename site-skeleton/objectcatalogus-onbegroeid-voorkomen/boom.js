@@ -1,6 +1,6 @@
             var treeData = [
               {
-                "name": "Onbegroeid Voorkomen",
+                "name": "Onbegroeid voorkomen",
                 "parent": "null",
                 "children": [
                   {
