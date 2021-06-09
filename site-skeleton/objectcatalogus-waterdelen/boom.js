@@ -8,26 +8,26 @@
                     "parent": "Waterdeel",
                     "children": [
                       {
-                        "name": "Natuurlijke Waterloop",
+                        "name": "Natuurlijke waterloop",
                         "parent": "Waterloop",
                         "children": [
                           {
                             "name": "Rivier",
-                            "parent": "Natuurlijke Waterloop"
+                            "parent": "Natuurlijke waterloop"
                           },
                           {
                             "name": "Beek",
-                            "parent": "Natuurlijke Waterloop"
+                            "parent": "Natuurlijke waterloop"
                           }
                         ]
                       },
                       {
-                        "name": "Kunstmatige Waterloop",
+                        "name": "Kunstmatige waterloop",
                         "parent": "Waterloop",
                         "children": [
                           {
                             "name": "Kanaal",
-                            "parent": "Kunstmatige Waterloop"
+                            "parent": "Kunstmatige waterloop"
                           }
                         ]          
                       },
@@ -36,11 +36,11 @@
                         "parent": "Waterloop",
                         "children": [
                           {
-                            "name": "Natuurlijke Gracht",
+                            "name": "Natuurlijke gracht",
                             "parent": "Gracht"
                           },
                           {
-                            "name": "Kunstmatige Gracht",
+                            "name": "Kunstmatige gracht",
                             "parent": "Gracht"
                           }
                         ]           
