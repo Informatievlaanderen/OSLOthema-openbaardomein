@@ -1,15 +1,15 @@
            var treeData = [
               {
-                "name": "Begroeid Voorkomen",
+                "name": "Begroeid voorkomen",
                 "parent": "null",
                 "children": [
                   {
-                    "name": "Grazige Vegetatie",
-                    "parent": "Begroeid Voorkomen",
+                    "name": "Grazige vegetatie",
+                    "parent": "Begroeid voorkomen",
                     "children": [
                       {
                         "name": "Grasland",
-                        "parent": "Grazige Vegetatie",
+                        "parent": "Grazige vegetatie",
                         "children": [
                           {
                             "name": "Bloemenweide",
@@ -35,7 +35,7 @@
                       },                               
                       {
                         "name": "Gazon",
-                        "parent": "Grazige Vegetatie",
+                        "parent": "Grazige vegetatie",
                         "children": [
                           {
                             "name": "Sportgazon",
@@ -57,13 +57,13 @@
                       },
                       {
                         "name": "Grasdals",
-                        "parent": "Grazige Vegetatie"
+                        "parent": "Grazige vegetatie"
                       }
                     ]
                   },
                   {
                     "name": "Houtachtigen",
-                    "parent": "Begroeid Voorkomen",
+                    "parent": "Begroeid voorkomen",
                     "children": [
                       {
                         "name": "Heester",
@@ -121,7 +121,7 @@
                   },
                   {
                     "name": "Ruigte",
-                    "parent": "Begroeid Voorkomen",
+                    "parent": "Begroeid voorkomen",
                     "children": [
                       {
                         "name": "Oevervegetatie",
@@ -143,7 +143,7 @@
                   },
                   {
                     "name": "Sierbeplanting",
-                    "parent": "Begroeid Voorkomen",
+                    "parent": "Begroeid voorkomen",
                     "children": [
                       {
                         "name": "Bodembedekkers",
