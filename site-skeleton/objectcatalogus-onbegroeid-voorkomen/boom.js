@@ -28,10 +28,6 @@
                         "parent": "Bestrating"
                       },
                       {
-                        "name": "Gras-kunststofplaat",
-                        "parent": "Bestrating"
-                      },
-                      {
                         "name": "Kassei",
                         "parent": "Bestrating"
                       },
@@ -70,23 +66,15 @@
                         "parent": "Andere verharding"
                       },
                       {
-                        "name": "Gravel",
+                        "name": "Colloidaal beton",
                         "parent": "Andere verharding"
                       },
                       {
-                        "name": "Grond",
+                        "name": "Schanskorf",
                         "parent": "Andere verharding"
-                      },
-                      {
-                        "name": "Mulch",
-                        "parent": "Andere verharding"
-                      },
+                      },                                
                       {
                         "name": "Rubberen matten tegels",
-                        "parent": "Andere verharding"
-                      },
-                      {
-                        "name": "Schelpen",
                         "parent": "Andere verharding"
                       },
                       {
@@ -94,23 +82,7 @@
                         "parent": "Andere verharding"
                       },
                       {
-                        "name": "Grindplaat",
-                        "parent": "Andere verharding"
-                      },
-                      {
-                        "name": "Zand",
-                        "parent": "Andere verharding"
-                      },
-                      {
-                        "name": "Kunstgras",
-                        "parent": "Andere verharding"
-                      },
-                      {
                         "name": "Gesloten kunststofverharding",
-                        "parent": "Andere verharding"
-                      },
-                      {
-                        "name": "Schors",
                         "parent": "Andere verharding"
                       },
                       {
@@ -118,6 +90,34 @@
                         "parent": "Andere verharding"
                       }
                     ]
+                  },
+                  {
+                    "name": "Zand",
+                    "parent": "Onbegroeid voorkomen"
+                  },
+                  {
+                    "name": "Kunstgras",
+                    "parent": "Onbegroeid voorkomen"
+                  },
+                  {
+                    "name": "Schors",
+                    "parent": "Onbegroeid voorkomen"
+                  },
+                  {
+                    "name": "Schelpen",
+                    "parent": "Onbegroeid voorkomen"
+                  },
+                  {
+                    "name": "Gravel",
+                    "parent": "Onbegroeid voorkomen"
+                  },
+                  {
+                    "name": "Grond",
+                    "parent": "Onbegroeid voorkomen"
+                  },
+                  {
+                     "name": "Mulch",
+                     "parent": "Onbegroeid voorkomen"
                   }
                 ]
               }
