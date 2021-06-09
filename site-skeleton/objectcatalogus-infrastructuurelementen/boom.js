@@ -179,35 +179,35 @@
                     "children": [
                       {
                         "name": "Bedieningszuil",
-                        "parent": "Sensor"         
+                        "parent": "Sensoropstelling"         
                       },  
                       {
                         "name": "Camera",
-                        "parent": "Sensor"      
+                        "parent": "Sensoropstelling"      
                       },  
                       {
                         "name": "Detectielus",
-                        "parent": "Sensor"         
+                        "parent": "Sensoropstelling"         
                       },  
                       {
                         "name": "Flitspaal",
-                        "parent": "Sensor"         
+                        "parent": "Sensoropstelling"         
                       },  
                       {
                         "name": "Meteopaal",
-                        "parent": "Sensor"         
+                        "parent": "Sensoropstelling"         
                       },  
                       {
                         "name": "Debietmeter",
-                        "parent": "Sensor"         
+                        "parent": "Sensoropstelling"         
                       },  
                       {
                         "name": "Parkeersensor",
-                        "parent": "Sensor"         
+                        "parent": "Sensoropstelling"         
                       },  
                       {
                         "name": "Fietstelpaal",
-                        "parent": "Sensor"         
+                        "parent": "Sensoropstelling"         
                       }                   
                     ]           
                   },
@@ -395,7 +395,25 @@
                       },
                       {
                         "name": "Wegmonoliet",
-                        "parent": "Selectieve afsluiting"         
+                        "parent": "Weginrichtingselement",
+                        "children": [
+                          {
+                            "name": "Statische wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          },
+                          {
+                            "name": "Verzinkbare wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          },
+                          {
+                            "name": "Omklapbare wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          },
+                          {
+                            "name": "Wegneembare wegmonoliet",
+                            "parent": "Wegmonoliet"          
+                          }                               
+                        ]          
                       }
                     ]         
                   }, 
@@ -405,15 +423,15 @@
                     "children": [
                       {
                         "name": "Verlichtingspaal",
-                        "parent": "Verlichting"         
+                        "parent": "Openbare verlichting"         
                       },  
                       {
                         "name": "Lichtpunt",
-                        "parent": "Verlichting"         
+                        "parent": "Openbare verlichting"         
                       },  
                       {
                         "name": "Openbare straatverlichting aan gevel of muur",
-                        "parent": "Verlichting"         
+                        "parent": "Openbare verlichting"         
                       }           
                     ]           
                   },
