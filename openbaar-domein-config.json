@@ -1,16 +1,16 @@
 {
   "naam": "Openbaar Domein",
-  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/openbaardomein.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/openbaardomein.jsonld",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
   "publicatiedatum": "2018-11-27",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Vocabularium & applicatieprofielen",
-  "beschrijving" : "openbaar-domein.md",
+  "beschrijving": "openbaar-domein.md",
   "specificatiedocument": [
     {
-      "naam" : "Basisprofiel Openbaar Domein",
-      "waarde" : "https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein/"
+      "naam": "Basisprofiel Openbaar Domein",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein/"
     },
     {
       "naam" : "Applicatieprofiel Begraafplaatsenbeheer",

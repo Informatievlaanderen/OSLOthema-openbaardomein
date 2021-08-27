@@ -1,8 +1,8 @@
 {
   "naam": "Openbaar Domein 2.0.0 - Applicatieprofiel Onbegroeid Voorkomen",
   "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/onbegroeid-voorkomen/kandidaatstandaard/2020-06-18/all-onbegroeid-voorkomen-ap.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
   "publicatiedatum": "TBD",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",

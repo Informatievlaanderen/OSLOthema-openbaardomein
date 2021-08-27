@@ -1,16 +1,16 @@
 {
   "naam": "Openbaar Domein - Applicatieprofiel Water voorkomen",
-  "rapport" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/openbaardomein.jsonld",
-  "verantwoordelijke_organisatie": "Agentschap Informatie Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO002949",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/reverseengineeredOnlyForContributions/openbaardomein.jsonld",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
   "publicatiedatum": "2018-11-27",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
-  "beschrijving" : "ap-thema-openbaar-domein.md",
+  "beschrijving": "ap-thema-openbaar-domein.md",
   "specificatiedocument": [
     {
-      "naam" : "Applicatieprofiel Water Voorkomen",
-      "waarde" : "https://data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen/"
+      "naam": "Applicatieprofiel Water Voorkomen",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen/"
     }
   ],
   "documentatie": [],
