@@ -10,9 +10,9 @@
 
 <https://data.vlaanderen.be/id/concept/Verstevigingsmaterialen/Grasbetontegel>
    a skos:Concept ;
-   skos:prefLabel "Beton"@nl ;
+   skos:prefLabel "Grasbetontegel"@nl ;
    skos:definition "Grasbetontegels zijn overeenkomstig PTV 121."@nl ;
-   skos:notation "Beton"@nl ;
+   skos:notation "Grasbetontegel"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Verstevigingsmaterialen> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Verstevigingsmaterialen> .
 
