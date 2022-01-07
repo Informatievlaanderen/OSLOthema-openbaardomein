@@ -3,94 +3,94 @@
   "rapport": "",
   "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "TBD",
+  "publicatiedatum": "30-09-2021",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Vocabularium & applicatieprofielen",
   "beschrijving": "openbaar-domein.md",
   "specificatiedocument": [
     {
       "naam": "Vocabularium Conceptueel Gegevensmodel Openbaar Domein",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein"
     },
     {
       "naam": "Uitbreiding Gebied",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/gebied/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/gebied"
     },
     {
       "naam": "Uitbreiding Infrastructuur",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/infrastructuur/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/infrastructuur"
     },
     {
       "naam": "Uitbreiding Vegetatie",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/vegetatie/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/vegetatie"
     },
     {
       "naam": "Uitbreiding Terreindeel",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/terreindeel/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/terreindeel"
     },
     {
       "naam": "Uitbreiding Begroeid Voorkomen",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/begroeidvoorkomen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begroeidvoorkomen"
     },
     {
       "naam": "Uitbreiding Onbegroeid Voorkomen",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/onbegroeidvoorkomen"
     },
     {
       "naam": "Uitbreiding Waterdeel",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/waterdeel/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/waterdeel"
     },
     {
       "naam": "Uitbreiding Watervoorkomen",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/watervoorkomen"
     },
     {
       "naam": "Uitbreiding Begraafplaats",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/openbaardomein/begraafplaats/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/openbaardomein/begraafplaats"
     },
     {
       "naam": "Basisprofiel Openbaar Domein",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/openbaar-domein"
     },
     {
       "naam": "Applicatieprofiel Gebieden",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/gebieden"
     },
     {
       "naam": "Applicatieprofiel Infrastructuurelementen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/infrastructuurelementen"
     },
     {
       "naam": "Applicatieprofiel Vegetatie-elementen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/vegetatie-elementen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/vegetatie-elementen"
     },
     {
       "naam": "Applicatieprofiel Terreindelen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/terreindelen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/terreindelen"
     },
     {
       "naam": "Applicatieprofiel Begroeid Voorkomen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/begroeid-voorkomen"
     },
     {
       "naam": "Applicatieprofiel Onbegroeid Voorkomen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/onbegroeid-voorkomen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/onbegroeid-voorkomen"
     },
     {
       "naam": "Applicatieprofiel Waterdelen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/waterdelen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/waterdelen"
     },
     {
       "naam": "Applicatieprofiel Watervoorkomen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/watervoorkomen"
     },
     {
       "naam": "Applicatieprofiel Begraafplaatsen",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsen/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsen"
     },
     {
       "naam": "Applicatieprofiel Begraafplaatsenbeheer",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/begraafplaatsenbeheer"
     }
   ],
   "documentatie": [],
@@ -122,6 +122,6 @@
   "functioneel_toepassingsgebied": "Inventarisatie van objecten op het openbaar domein.",
   "organisatorisch_werkingsgebied": "Steden, gemeenten en alle entiteiten van de Vlaamse overheid",
   "datum_van_aanmelding": " 20 november 2019",
-  "erkenning_werkgroep_datastandaarden": " TBD",
-  "erkenning_stuurgroep": "TBD"
+  "erkenning_werkgroep_datastandaarden": "17 juni 2021",
+  "erkenning_stuurgroep": "10 november 2021"
 }

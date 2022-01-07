@@ -1,16 +1,16 @@
 {
   "naam": "Openbaar Domein 2.0.0 - Applicatieprofiel Gebieden",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18/all-gebieden-ap.jsonld",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/production/report/doc/applicatieprofiel/gebieden/erkendestandaard/2021-09-30/all-gebieden-ap.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "TBD",
+  "publicatiedatum": "30-09-2021",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-openbaar-domein.md",
   "specificatiedocument": [
     {
       "naam": "Applicatieprofiel Gebieden",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/gebieden"
     }
   ],
   "documentatie": [],
@@ -42,6 +42,6 @@
   "functioneel_toepassingsgebied": "Inventarisatie van objecten op het openbaar domein.",
   "organisatorisch_werkingsgebied": "Steden, gemeenten en alle entiteiten van de Vlaamse overheid",
   "datum_van_aanmelding": " 20 november 2019",
-  "erkenning_werkgroep_datastandaarden": " TBD",
-  "erkenning_stuurgroep": "TBD"
+  "erkenning_werkgroep_datastandaarden": "17 juni 2021",
+  "erkenning_stuurgroep": "10 november 2021"
 }
