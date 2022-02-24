@@ -194,6 +194,7 @@
     "site": "site-skeleton/objectcatalogus-begroeid-voorkomen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "documentconfig" : {
     "treeData" : [
               {
                 "name": "Begroeid voorkomen",
@@ -374,6 +375,7 @@
                 ]
               }
             ]
+    }
   },
   {
     "name": "begroeid-voorkomen-voc",
