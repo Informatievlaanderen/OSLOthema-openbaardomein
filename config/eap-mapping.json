@@ -16,7 +16,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "openbaar-domein",
+    "name": "openbaardomein",
     "type": "voc",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Model",
@@ -163,7 +163,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "onbegroeid-voorkomen",
+    "name": "onbegroeidvoorkomen",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -196,7 +196,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "begroeid-voorkomen",
+    "name": "begroeidvoorkomen",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
