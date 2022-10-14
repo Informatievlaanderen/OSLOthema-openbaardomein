@@ -16,7 +16,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "openbaar-domein-voc",
+    "name": "openbaar-domein",
     "type": "voc",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Model",
@@ -48,7 +48,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "begraafplaats-voc",
+    "name": "begraafplaats",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -97,7 +97,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "gebied-voc",
+    "name": "gebied",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -130,7 +130,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "infrastructuur-voc",
+    "name": "infrastructuur",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -163,7 +163,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "onbegroeid-voorkomen-voc",
+    "name": "onbegroeid-voorkomen",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -196,7 +196,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "begroeid-voorkomen-voc",
+    "name": "begroeid-voorkomen",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -229,7 +229,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "terreindeel-voc",
+    "name": "terreindeel",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -262,7 +262,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "vegetatie-voc",
+    "name": "vegetatie",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -295,7 +295,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "waterdeel-voc",
+    "name": "waterdeel",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
@@ -328,7 +328,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
   },
   {
-    "name": "watervoorkomen-voc",
+    "name": "watervoorkomen",
     "type": "voc",
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
