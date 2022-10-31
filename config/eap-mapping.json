@@ -135,8 +135,6 @@
     "prefix": "openbaardomein",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-InfrastructuurElement",
-    "template": "openbaar-domein-uitbreiding-voc.j2",
-    "title": "Infrastructuur (Vocabularium)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "publication-date": "2021-09-30",
     "contributors-file": "stakeholders.csv",
@@ -144,7 +142,23 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/infrastructuur",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+     "translation": [
+	    {
+	      "language":"nl",
+              "template": "openbaar-domein-uitbreiding-voc.j2",
+              "title": "Infrastructuur (Vocabularium)",
+	      "translationjson":"infrastructuur_nl.json",
+	      "mergefile":"infrastructuur_nl_merged.jsonld"
+	    },
+	    {
+	      "language":"en",
+              "template": "openbaar-domein-uitbreiding-voc_en.j2",
+              "title": "Infrastructure (Vocabulary)",
+	      "translationjson":"infrastructuur_en.json",
+	      "mergefile":"infrastructuur_en_merged.jsonld"
+	    }
+     ]
   },
   {
     "name": "onbegroeid-voorkomen-ap",
