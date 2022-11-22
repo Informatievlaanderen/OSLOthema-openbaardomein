@@ -155,14 +155,14 @@
 	      "language":"en",
               "template": "openbaar-domein-uitbreiding-voc_en.j2",
               "title": "Infrastructure (Vocabulary)",
-	      "translationjson":"infrastructuur_en.json",
+	      "translationjson":"infrastructuur-voc_en.json",
 	      "mergefile":"infrastructuur_en_merged.jsonld"
 	    },
 	    {
 	      "language":"es",
               "template": "openbaar-domein-uitbreiding-voc_en.j2",
               "title": "Infraestructura (vocabulario)",
-	      "translationjson":"infrastructuur_es.json",
+	      "translationjson":"infrastructuur-voc_es.json",
 	      "mergefile":"infrastructuur_es_merged.jsonld"
 	    }		     
      ]
