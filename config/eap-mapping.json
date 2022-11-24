@@ -160,7 +160,7 @@
 	    },
 	    {
 	      "language":"es",
-              "template": "voc2_es.j2",
+              "template": "openbaar-domein-uitbreiding-voc_es.j2",
               "title": "Infraestructura (vocabulario)",
 	      "translationjson":"infrastructuur-voc_es.json",
 	      "mergefile":"infrastructuur_es_merged.jsonld"
