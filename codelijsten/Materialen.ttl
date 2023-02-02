@@ -5,7 +5,7 @@
 <https://data.vlaanderen.be/id/conceptscheme/Materialen>
    a skos:ConceptScheme ;
    dct:modified "2023-02-02" ;
-   skos:definition "Materiaal waaruit iets vervaardigd is."@nl ;
+   skos:definition "Materiaal waaruit iets vervaardigd is geworden."@nl ;
    skos:prefLabel "Materialen"@nl ;
    skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Materialen/Beton> ;
    skos:hasTopConcept <https://data.vlaanderen.be/id/concept/Materialen/Kunststof> .
