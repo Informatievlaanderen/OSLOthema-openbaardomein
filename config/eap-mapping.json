@@ -13,7 +13,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/openbaar-domein",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-basisprofiel-openbaar-domein/"
   },
   {
     "name": "openbaardomein",
@@ -45,7 +45,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-begraafplaatsen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-begraafplaatsen/"
   },
   {
     "name": "begraafplaats",
@@ -62,7 +62,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/begraafplaats",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-begraafplaats/"
   },
   {
     "name": "begraafplaatsenbeheer-ap",
@@ -78,7 +78,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/begraafplaatsenbeheer",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-begraafplaatsenbeheer/"
   },
   {
     "name": "gebieden-ap",
@@ -94,7 +94,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-gebieden",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-gebieden/"
   },
   {
     "name": "gebied",
@@ -111,7 +111,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/gebied",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-gebied/"
   },
   {
     "name": "infrastructuurelementen-ap",
@@ -127,7 +127,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-infrastructuurelementen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-infrastructuurelementen/"
   },
   {
     "name": "infrastructuur",
@@ -144,7 +144,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/infrastructuur",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-infrastructuur/"
   },
   {
     "name": "onbegroeid-voorkomen-ap",
@@ -160,7 +160,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-onbegroeid-voorkomen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-onbegroeid-voorkomen/"
   },
   {
     "name": "onbegroeidvoorkomen",
@@ -177,7 +177,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/onbegroeid-voorkomen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-onbegroeid-voorkomen/"
   },
   {
     "name": "begroeid-voorkomen-ap",
@@ -193,7 +193,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-begroeid-voorkomen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-begroeid-voorkomen/"
   },
   {
     "name": "begroeidvoorkomen",
@@ -210,7 +210,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/begroeid-voorkomen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-begroeid-voorkomen/"
   },
   {
     "name": "terreindelen-ap",
@@ -226,7 +226,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-terreindelen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-terreindelen/"
   },
   {
     "name": "terreindeel",
@@ -243,7 +243,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/terreindeel",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-terreindeel/"
   },
   {
     "name": "vegetatie-elementen-ap",
@@ -259,7 +259,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-vegetatie-elementen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-vegetatie-elementen/"
   },
   {
     "name": "vegetatie",
@@ -276,7 +276,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/vegetatie",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-vegetatie/"
   },
   {
     "name": "waterdelen-ap",
@@ -292,7 +292,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-waterdelen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-waterdelen/"
   },
   {
     "name": "waterdeel",
@@ -309,7 +309,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/waterdeel",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-waterdeel/"
   },
   {
     "name": "watervoorkomen-ap",
@@ -325,7 +325,7 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/objectcatalogus-watervoorkomen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-watervoorkomen/"
   },
   {
     "name": "watervoorkomen",
@@ -342,6 +342,6 @@
     "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "site": "site-skeleton/watervoorkomen",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
-    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/"
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-watervoorkomen/"
   }
 ]
