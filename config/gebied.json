@@ -1,7 +1,7 @@
 [
   {
     "name": "gebieden-ap",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Gebied",
     "template": "objectcatalogus-gebieden-oj.j2",

@@ -1,7 +1,7 @@
 [
   {
     "name": "waterdelen-ap",
-    "type": "oj",
+    "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-Waterdeel",
     "template": "objectcatalogus-waterdelen-oj.j2",
