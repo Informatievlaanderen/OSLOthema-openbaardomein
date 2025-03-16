@@ -1,0 +1,35 @@
+[
+  {
+    "name": "terreindelen-ap",
+    "type": "ap",
+    "eap": "OSLO-Openbaar-Domein.eap",
+    "diagram": "OSLO-OpenbaarDomein-Taxonomie-Terreindeel",
+    "template": "objectcatalogus-terreindelen-oj.j2",
+    "title": "Terreindelen (Applicatieprofiel)",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "publication-date": "2021-09-30",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "OpenbaarDomein",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "site": "site-skeleton/objectcatalogus-terreindelen",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-terreindelen/"
+  },
+  {
+    "name": "terreindeel",
+    "type": "voc",
+    "prefix": "openbaardomein",
+    "eap": "OSLO-Openbaar-Domein.eap",
+    "diagram": "OSLO-OpenbaarDomein-Taxonomie-Terreindeel",
+    "template": "openbaar-domein-uitbreiding-voc.j2",
+    "title": "Terreindeel (Vocabularium)",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "publication-date": "2021-09-30",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "OpenbaarDomein",
+    "licentie" : "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "site": "site-skeleton/terreindeel",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein/issues",
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-terreindeel/"
+  }
+]
