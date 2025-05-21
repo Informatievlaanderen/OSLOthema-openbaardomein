@@ -1,6 +1,6 @@
 {
   "title": "Openbaar Domein 2.0.0 - Applicatieprofiel Onbegroeid Voorkomen",
-  "category": "Applicatieprofiel",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "ap-thema-openbaar-domein.md",
