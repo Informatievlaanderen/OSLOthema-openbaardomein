@@ -1,6 +1,6 @@
 {
   "title": "Openbaar Domein 2.0.0 - Uitbreiding Waterdeel",
-  "category": "Vocabularium",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-openbaar-domein.md",
