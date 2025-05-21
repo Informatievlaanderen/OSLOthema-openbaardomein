@@ -1,6 +1,6 @@
 {
   "title": "Openbaar Domein - Uitbreiding Gebieden (Vocabularium)",
-  "category": "Vocabularium",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
   "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
   "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
   "descriptionFileName": "voc-thema-openbaar-domein.md",
