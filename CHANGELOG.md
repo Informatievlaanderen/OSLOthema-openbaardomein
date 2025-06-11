@@ -7,5 +7,7 @@
 2025-06-10
 - verwijder 0..* cardinaliteiten uit source waarvoor er geen eigenschap was in erkende standaard.
 - vervang de heeftObstakel(Terreindeel -> Element) door een rol annotatie.
-- vervang range Boolean door interne type boolean
+- Fysiek Object. niveau gebruik juiste interne benaming voor range integer
+- hernoem EA package Model door BasisModel omdat anders er verwarring in de tooling is over welke package te gebruiken. 
+  want de root noemt ook Model.
     
