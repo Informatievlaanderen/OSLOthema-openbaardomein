@@ -335,14 +335,10 @@
 			      {% endblock %}
 			      <script type="text/javascript" src="/cms/scripts/treeview.js"></script>
 			    </div>
-                        <div class="region region--no-space-top">
-                           <h2 class="h2">Entiteiten</h2>
-                           {% for entity in data.classes %}
-                           {% if entity.applicationProfileLabel[language] %}
-                           {% set entitylabel = entity.applicationProfileLabel[language] %}
-                           {% else %}
-                           {% set entitylabel = "ERROR" %}
-                           {% endif %}
+
+
+			    <!-- introduce a macro to keep the template more compact -->
+{% macro renderentity(entity, entitylabel) %}
                            <div class="region region--no-space-top">
                               <h3 class="h3" id="{{ entity.id }}">
                                  <a href="{{ entity.id }}" data-toggle="tooltip" data-content="{{ entity.id }}" id="{{ entitylabel | generateAnchorTag() }}" data-placement="right">
@@ -461,6 +457,35 @@
                                  {% endif %}
                               </div>
                            </div>
+			   {% endmacro %}
+
+
+
+                        <div class="region region--no-space-top">
+                           <h2 class="h2">Entiteiten</h2>
+                           {% for entity in data.classes %}
+                           {% if entity.applicationProfileLabel[language] %}
+                           {% set entitylabel = entity.applicationProfileLabel[language] %}
+                           {% else %}
+                           {% set entitylabel = "ERROR" %}
+                           {% endif %}
+                           {% if  entity.id != "http://www.w3.org/2004/02/skos/core#Concept" %}
+			   {{ renderentity(entity, entitylabel) }}
+			   {% endif %}
+                           {% endfor %}
+                        </div>
+                        <div class="region region--no-space-top">
+                           <h2 class="h2">Codelijsten</h2>
+			   De klassen hieronder vermeld zijn de codelijsten die expliciet vermeld zijn in dit applicatieprofiel.
+                           {% for entity in data.classes %}
+                           {% if entity.applicationProfileLabel[language] %}
+                           {% set entitylabel = entity.applicationProfileLabel[language] %}
+                           {% else %}
+                           {% set entitylabel = "ERROR" %}
+                           {% endif %}
+                           {% if  entity.id == "http://www.w3.org/2004/02/skos/core#Concept" %}
+			   {{ renderentity(entity, entitylabel) }}
+			   {% endif %}
                            {% endfor %}
                         </div>
                         {% if data.dataTypes %}
