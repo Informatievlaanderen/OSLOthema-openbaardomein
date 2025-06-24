@@ -290,7 +290,7 @@
                                     {% endif %}
                                     {%- endfor %}
                                  </p>
-                                 <p>Daarbij worden de volgende codelijsten mee beschreven:
+				 <p>Daarbij worden de volgende codelijsten mee beschreven: <br/> |
                                     {%- for entity in data.classes %}
                                     {% if entity.applicationProfileLabel[language] and entity.id == "http://www.w3.org/2004/02/skos/core#Concept" %}
                                     <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">
