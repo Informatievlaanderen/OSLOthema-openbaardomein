@@ -290,6 +290,7 @@
                                     {% endif %}
                                     {%- endfor %}
                                  </p>
+				 {% block codelijsten1 %}
 				 <p>Daarbij worden de volgende codelijsten mee beschreven: <br/> |
                                     {%- for entity in data.classes %}
                                     {% if entity.applicationProfileLabel[language] and entity.id == "http://www.w3.org/2004/02/skos/core#Concept" %}
@@ -299,10 +300,9 @@
                                     {% endif %}
                                     {%- endfor %}
                                  </p>
-                              </div>
+				 {% endblock codelijsten1 %}
                               {% endif %}
                               {% if ( ( data.dataTypes | length ) > 0 ) %}
-                              <div class="region region--no-space-top">
                                  <p>
                                     In dit document worden de volgende datatypes toegelicht: <br/> |
                                     {%- for dataType in data.dataTypes %}
@@ -474,9 +474,11 @@
 			   {% endif %}
                            {% endfor %}
                         </div>
+		        {% block codelijsten2 %}
                         <div class="region region--no-space-top">
                            <h2 class="h2">Codelijsten</h2>
-			   De klassen hieronder vermeld zijn de codelijsten die expliciet vermeld zijn in dit applicatieprofiel.
+			   De klassen, hieronder opgelijst, zijn de codelijsten die expliciet vermeld zijn als klasse in dit applicatieprofiel.
+			   <p/>
                            {% for entity in data.classes %}
                            {% if entity.applicationProfileLabel[language] %}
                            {% set entitylabel = entity.applicationProfileLabel[language] %}
@@ -488,6 +490,7 @@
 			   {% endif %}
                            {% endfor %}
                         </div>
+		        {% endblock codelijsten2 %}
                         {% if data.dataTypes %}
                         <div class="region region--no-space-top">
                            <h2 class="h2">Datatypes</h2>
