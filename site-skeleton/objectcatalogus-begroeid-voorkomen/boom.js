@@ -1,10 +1,12 @@
            var treeData = [
               {
                 "name": "Begroeid voorkomen",
+                "target": "BegroeidVoorkomen",
                 "parent": "null",
                 "children": [
                   {
                     "name": "Grazige vegetatie",
+                    "target": "GrazigeVegetatie",
                     "parent": "Begroeid voorkomen",
                     "children": [
                       {
@@ -83,6 +85,7 @@
                           },
                           {
                             "name": "Bodembedekkende heesters",
+                            "target": "BodembedekkendeHeesters",
                             "parent": "Heester"
                           }
                         ]
@@ -97,6 +100,7 @@
                           },
                           {
                             "name": "Geschoren haag",
+                            "target": "GeschorenHaag",
                             "parent": "Haag"
                           }
                         ]
@@ -133,10 +137,12 @@
                       },
                       {
                         "name": "Natte ruigte",
+                        "target": "NatteRuigte",
                         "parent": "Ruigte"
                       },
                       {
                         "name": "Droge ruigte",
+                        "target": "DrogeRuigte",
                         "parent": "Ruigte"
                       }                    
                     ]
@@ -163,6 +169,7 @@
                       },
                       {
                         "name": "Bol- en knolgewassen",
+                        "target": "BolEnKnolgewassen",
                         "parent": "Sierbeplanting"
                       }                  
                     ]
@@ -173,6 +180,7 @@
                   },
                   {
                     "name": "Niet begroeid",
+                    "target": "NietBegroeid",
                     "parent": "Begroeid Voorkomen"
                   }
                 ]

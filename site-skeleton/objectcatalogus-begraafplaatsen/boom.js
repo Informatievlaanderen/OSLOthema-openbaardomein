@@ -6,14 +6,17 @@ var treeData = [
                 "children": [
                   {
                     "name": "Terreindeel",
-                    "parent": "null",
+                    "target": "Terreindeel",
+                    "parent": "Fysiekobject",
                     "children": [
                       {
                         "name": "Begraafplaats blok",
+                        "target": "BegraafplaatsBlok",
                         "parent": "Terreindeel"
                       },
                       {
                         "name": "Begraafplaats rij",
+                        "target": "BegraafplaatsRij",
                         "parent": "Terreindeel"
                       },
                       {
@@ -24,7 +27,7 @@ var treeData = [
                   },
                   {
                     "name": "Element",
-                    "parent": "null",
+                    "parent": "Fysiekobject",
                     "children": [
                       {
                         "name": "Graf",
