@@ -1,12 +1,12 @@
            var treeData = [
               {
                 "name": "Begroeid voorkomen",
-                "target": "BegroeidVoorkomen",
+                "target": "Begroeidvoorkomen",
                 "parent": "null",
                 "children": [
                   {
                     "name": "Grazige vegetatie",
-                    "target": "GrazigeVegetatie",
+                    "target": "Grazigevegetatie",
                     "parent": "Begroeid voorkomen",
                     "children": [
                       {
@@ -85,7 +85,7 @@
                           },
                           {
                             "name": "Bodembedekkende heesters",
-                            "target": "BodembedekkendeHeesters",
+                            "target": "Bodembedekkendeheesters",
                             "parent": "Heester"
                           }
                         ]
@@ -100,7 +100,7 @@
                           },
                           {
                             "name": "Geschoren haag",
-                            "target": "GeschorenHaag",
+                            "target": "Geschorenhaag",
                             "parent": "Haag"
                           }
                         ]
@@ -137,12 +137,12 @@
                       },
                       {
                         "name": "Natte ruigte",
-                        "target": "NatteRuigte",
+                        "target": "Natteruigte",
                         "parent": "Ruigte"
                       },
                       {
                         "name": "Droge ruigte",
-                        "target": "DrogeRuigte",
+                        "target": "Drogeruigte",
                         "parent": "Ruigte"
                       }                    
                     ]
@@ -161,6 +161,7 @@
                       },
                       {
                         "name": "Vaste planten",
+                        "target": "Vasteplanten",
                         "parent": "Sierbeplanting"
                       },
                       {
@@ -169,7 +170,7 @@
                       },
                       {
                         "name": "Bol- en knolgewassen",
-                        "target": "BolEnKnolgewassen",
+                        "target": "Bol-enknolgewassen",
                         "parent": "Sierbeplanting"
                       }                  
                     ]
@@ -180,7 +181,7 @@
                   },
                   {
                     "name": "Niet begroeid",
-                    "target": "NietBegroeid",
+                    "target": "Nietbegroeid",
                     "parent": "Begroeid Voorkomen"
                   }
                 ]
