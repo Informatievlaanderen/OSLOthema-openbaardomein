@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="{{ language }}" lang="{{ language }}" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="{{ language }}" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p:
-            http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+                                       http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -301,49 +301,208 @@
                                  {% endif %}
                               </div>
                            </div>
-                           <!--
-                                                   <div class="vl-region vl-region--no-space-top">
-                                                      {% block images %}
-                                                      <a href="{{ data.metadata.documentroot }}/html/overview.jpg" target="_blank">
-                                                      <img src="{{ data.metadata.documentroot }}/html/overview.jpg"/>
-                                                      </a>
-                                                      {% endblock %}
-                                                   </div> -->
-                           <div class="vl-region vl-region--no-space-top" id="taxonomie">
-                              <h2 class="vl-title--h2">Taxonomie</h2>
-                              <p>Klik op de cirkels om de boomstructuur uit te breiden of in te krimpen of klik op de tekst labels om rechtstreeks
-                                 naar de details van een bepaalde entiteit te gaan.</p>
-                              <div id="tree"></div>
-                              <script src="https://d3js.org/d3.v3.min.js"></script>
-                              {% block taxonomy %}{% endblock %}
-                              <script type="text/javascript" src="/cms/scripts/treeview.js"></script>
-                           </div>
-                           <!-- introduce a macro to keep the template more compact -->
-                           {% macro renderentity(entity, entitylabel) %}
+                        </div>
+                        <!--
+                                                <div class="vl-region vl-region--no-space-top">
+                                                   {% block images %}
+                                                   <a href="{{ data.metadata.documentroot }}/html/overview.jpg" target="_blank">
+                                                   <img src="{{ data.metadata.documentroot }}/html/overview.jpg"/>
+                                                   </a>
+                                                   {% endblock %}
+                                                </div> -->
+                        <div class="vl-region vl-region--no-space-top" id="taxonomie">
+                           <h2 class="vl-title--h2">Taxonomie</h2>
+                           <p>Klik op de cirkels om de boomstructuur uit te breiden of in te krimpen of klik op de tekst labels om rechtstreeks
+                              naar de details van een bepaalde entiteit te gaan.</p>
+                           <div id="tree"></div>
+                           <script src="https://d3js.org/d3.v3.min.js"></script>
+                           {% block taxonomy %}{% endblock %}
+                           <script type="text/javascript" src="/cms/scripts/treeview.js"></script>
+                        </div>
+                        <!-- introduce a macro to keep the template more compact -->
+                        {% macro renderentity(entity, entitylabel) %}
+                           <div class="vl-region vl-region--no-space-top">
+                              <h3 class="vl-title--h3" id="{{ entity.id }}">
+                                 <a href="{{ entity.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ entity.id }}" id="{{ entitylabel | generateAnchorTag() }}" data-vl-tooltip-placement="right">
+                                    {{ entitylabel }}</a>
+                              </h3>
                               <div class="vl-region vl-region--no-space-top">
-                                 <h3 class="vl-title--h3" id="{{ entity.id }}">
-                                    <a href="{{ entity.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ entity.id }}" id="{{ entitylabel | generateAnchorTag() }}" data-vl-tooltip-placement="right">
-                                       {{ entitylabel }}</a>
+                                 <dl>
+                                    <dt>Beschrijving</dt>
+                                    <dd>
+                                       {% if entity.applicationProfileDefinition[language] %}
+                                          {{ entity.applicationProfileDefinition[language] }}
+                                       {% endif %}
+                                    </dd>
+                                    {% if entity.applicationProfileUsageNote[language] %}
+                                       <dt>Gebruik</dt>
+                                       <dd>
+                                          {{ entity.applicationProfileUsageNote[language] | safe }}
+                                       </dd>
+                                    {% endif %}
+                                    {% if ((entity.parents | length) > 0 ) %}
+                                       <dt>Subklasse van
+                                       </dt>
+                                       <dd>
+                                          {%- for parent in entity['parents'] %}
+                                             <a href="#{{ parent.applicationProfileLabel[language] | generateAnchorTag() }}">
+                                                {{ parent.applicationProfileLabel[language] }}</a>
+                                             {% if not loop.last %},
+                                             {% endif %}
+                                          {%- endfor %}
+                                       </dd>
+                                    {% endif %}
+                                    <dt>Eigenschappen</dt>
+                                    {% if ((entity.properties | length) > 0 ) %}
+                                       <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
+                                          {%- for prop in entity['properties'] %}
+                                             {% if prop.applicationProfileLabel[language] %}
+                                                <a href="#{{ entitylabel | generateAnchorTag(prop.applicationProfileLabel[language]) }}">
+                                                   {{ prop.applicationProfileLabel[language] }}</a>
+                                             {% endif %}
+                                             {% if not loop.last %},
+                                             {% endif %}
+                                          {%- endfor %}.
+                                       </dd>
+                                    {% else %}
+                                       <dd>Voor deze entiteit zijn geen eigenschappen gedefinieerd.</dd>
+                                    {% endif %}
+                                 </dl>
+                                 {% if ((entity.properties | length) > 0 ) %}
+                                    <div class="vl-u-table-overflow">
+                                       <table class="vl-data-table">
+                                          <thead>
+                                             <tr class="vl-data-table__header">
+                                                <th class="vl-data-table__header-title data-table__header-title--sortable-active">Eigenschap</th>
+                                                <th class="vl-data-table__header-title">Verwacht Type</th>
+                                                <th class="vl-data-table__header-title">Kardinaliteit</th>
+                                                <th class="vl-data-table__header-title">Beschrijving</th>
+                                                <th class="vl-data-table__header-title">Gebruik</th>
+                                                <th class="vl-data-table__header-title">Codelijst</th>
+                                             </tr>
+                                          </thead>
+                                          <tbody class="supertype">
+                                             {% for prop in entity['properties'] %}
+                                                {% if prop.applicationProfileLabel[language] %}
+                                                   {% set proplabel = prop.applicationProfileLabel[language] %}
+                                                {% else %}
+                                                   {% set proplabel = "ERROR" %}
+                                                {% endif %}
+                                                <tr id="{{ entitylabel | generateAnchorTag(proplabel) }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
+                                                   <td>
+                                                      <code property="rdfs:label">
+                                                         <a href="{{ prop.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.id }}" data-vl-tooltip-placement="right">
+                                                            {{ proplabel }}</a>
+                                                      </code>
+                                                   </td>
+                                                   <td>
+                                                      {% if prop.range %}
+                                                         {% if prop.range.applicationProfileLabel[language] %}
+                                                            {% if prop.range.listedInDocument %}
+                                                               <a href="#{{ prop.range.applicationProfileLabel[language] | generateAnchorTag() }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.range.applicationProfileLabel[language] }}" data-vl-tooltip-placement="right">
+                                                                  {{ prop.range.applicationProfileLabel[language] }}</a>
+                                                            {% else %}
+                                                               <a href="{{ prop.range.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.range.id }}" data-vl-tooltip-placement="right">
+                                                                  {{ prop.range.applicationProfileLabel[language] }}</a>
+                                                            {% endif %}
+                                                         {% endif %}
+                                                      {% endif %}
+                                                   </td>
+                                                   <td>
+                                                      {% if prop.minCount == prop.maxCount %}
+                                                         {% set cardinality = prop.minCount %}
+                                                      {% else %}
+                                                         {% set cardinality = prop.minCount + '..' + prop.maxCount %}
+                                                      {% endif %}
+                                                      {{ cardinality }}
+                                                   </td>
+                                                   <td property="rdfs:comment">
+                                                      {% if prop.applicationProfileDefinition[language] %}
+                                                         {{ prop.applicationProfileDefinition[language] }}
+                                                      {% endif %}
+                                                   </td>
+                                                   <td property="vann:usageNote">
+                                                      {% if prop.applicationProfileUsageNote[language] %}
+                                                         {{ prop.applicationProfileUsageNote[language] | safe }}
+                                                      {% endif %}
+                                                   </td>
+                                                   <td>
+                                                      {% if prop.codelist %}
+                                                         <a href="{{ prop.codelist }}">Link</a>
+                                                      {% endif %}
+                                                   </td>
+                                                </tr>
+                                             {% endfor %}
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 {% endif %}
+                              </div>
+                           </div>
+                        {% endmacro %}
+                        <div class="vl-region vl-region--no-space-top">
+                           <h2 class="vl-title--h2">Entiteiten</h2>
+                           {% for entity in data.classes %}
+                              {% if entity.applicationProfileLabel[language] %}
+                                 {% set entitylabel = entity.applicationProfileLabel[language] %}
+                              {% else %}
+                                 {% set entitylabel = "ERROR" %}
+                              {% endif %}
+                              {% if  entity.id != "http://www.w3.org/2004/02/skos/core#Concept" %}
+                                 {{ renderentity(entity, entitylabel) }}
+                              {% endif %}
+                           {% endfor %}
+                        </div>
+                        {% block codelijsten2 %}
+                           <div>
+                              <h2 class="vl-title--h2">Codelijsten</h2>
+                              De klassen, hieronder opgelijst, zijn de codelijsten die expliciet vermeld zijn als klasse in dit applicatieprofiel.
+                                 <p/>
+                              {% for entity in data.classes %}
+                                 {% if entity.applicationProfileLabel[language] %}
+                                    {% set entitylabel = entity.applicationProfileLabel[language] %}
+                                 {% else %}
+                                    {% set entitylabel = "ERROR" %}
+                                 {% endif %}
+                                 {% if  entity.id == "http://www.w3.org/2004/02/skos/core#Concept" %}
+                                    {{ renderentity(entity, entitylabel) }}
+                                 {% endif %}
+                              {% endfor %}
+                           </div>
+                        {% endblock codelijsten2 %}
+                        {% if data.dataTypes %}
+                           <div>
+                              <h2 class="vl-title--h2">Datatypes</h2>
+                           </div>
+                           {% for dataType in data.dataTypes %}
+                              {% if dataType.applicationProfileLabel[language] %}
+                                 {% set dataTypelabel = dataType.applicationProfileLabel[language] %}
+                              {% else %}
+                                 {% set dataTypelabel = "ERROR" %}
+                              {% endif %}
+                              <div class="vl-region vl-region--no-space-top">
+                                 <h3 class="vl-title--h3" id="{{ dataType.id }}">
+                                    <a href="{{ dataType.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ dataType.id }}" id="{{ dataTypelabel | generateAnchorTag() }}" data-vl-tooltip-placement="right">
+                                       {{ dataTypelabel }}</a>
                                  </h3>
                                  <div class="vl-region vl-region--no-space-top">
                                     <dl>
                                        <dt>Beschrijving</dt>
                                        <dd>
-                                          {% if entity.applicationProfileDefinition[language] %}
-                                             {{ entity.applicationProfileDefinition[language] }}
+                                          {% if dataType.applicationProfileDefinition[language] %}
+                                             {{ dataType.applicationProfileDefinition[language] }}
                                           {% endif %}
                                        </dd>
-                                       {% if entity.applicationProfileUsageNote[language] %}
+                                       {% if dataType.applicationProfileUsageNote[language] %}
                                           <dt>Gebruik</dt>
                                           <dd>
-                                             {{ entity.applicationProfileUsageNote[language] | safe }}
+                                             {{ dataType.applicationProfileUsageNote[language] | safe }}
                                           </dd>
                                        {% endif %}
-                                       {% if ((entity.parents | length) > 0 ) %}
-                                          <dt>Subklasse van
-                                          </dt>
+                                       {% if ((dataType.parents | length) > 0 ) %}
+                                          <dt>Subklasse van</dt>
                                           <dd>
-                                             {%- for parent in entity['parents'] %}
+                                             {%- for parent in dataType['parents'] %}
                                                 <a href="#{{ parent.applicationProfileLabel[language] | generateAnchorTag() }}">
                                                    {{ parent.applicationProfileLabel[language] }}</a>
                                                 {% if not loop.last %},
@@ -352,22 +511,19 @@
                                           </dd>
                                        {% endif %}
                                        <dt>Eigenschappen</dt>
-                                       {% if ((entity.properties | length) > 0 ) %}
-                                          <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                                             {%- for prop in entity['properties'] %}
-                                                {% if prop.applicationProfileLabel[language] %}
-                                                   <a href="#{{ entitylabel | generateAnchorTag(prop.applicationProfileLabel[language]) }}">
-                                                      {{ prop.applicationProfileLabel[language] }}</a>
-                                                {% endif %}
+                                       {% if ((dataType.properties | length) > 0 ) %}
+                                          <dd>Voor dit datatype zijn de volgende eigenschappen gedefinieerd:
+                                             {%- for prop in dataType['properties'] %}
+                                                <a href="#{{ dataTypelabel | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ prop.applicationProfileLabel[language] }}</a>
                                                 {% if not loop.last %},
                                                 {% endif %}
                                              {%- endfor %}.
                                           </dd>
                                        {% else %}
-                                          <dd>Voor deze entiteit zijn geen eigenschappen gedefinieerd.</dd>
+                                          <dd>Voor dit datatype zijn geen eigenschappen gedefinieerd.</dd>
                                        {% endif %}
                                     </dl>
-                                    {% if ((entity.properties | length) > 0 ) %}
+                                    {% if ((dataType.properties | length) > 0 ) %}
                                        <div class="vl-u-table-overflow">
                                           <table class="vl-data-table">
                                              <thead>
@@ -381,13 +537,13 @@
                                                 </tr>
                                              </thead>
                                              <tbody class="supertype">
-                                                {% for prop in entity['properties'] %}
+                                                {% for prop in dataType['properties'] %}
                                                    {% if prop.applicationProfileLabel[language] %}
                                                       {% set proplabel = prop.applicationProfileLabel[language] %}
                                                    {% else %}
                                                       {% set proplabel = "ERROR" %}
                                                    {% endif %}
-                                                   <tr id="{{ entitylabel | generateAnchorTag(proplabel) }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
+                                                   <tr tr id="{{ dataTypelabel | generateAnchorTag(proplabel) }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
                                                       <td>
                                                          <code property="rdfs:label">
                                                             <a href="{{ prop.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.id }}" data-vl-tooltip-placement="right">
@@ -438,372 +594,216 @@
                                     {% endif %}
                                  </div>
                               </div>
-                           {% endmacro %}
-                           <div class="vl-region vl-region--no-space-top">
-                              <h2 class="vl-title--h2">Entiteiten</h2>
+                           {% endfor %}
+                        </div>
+                     {% endif %}
+                     <div class="vl-region vl-region--no-space-top" id="jsonld">
+                        <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
+                        (niet normatief)
+                        {% block jsonld %}
+                           <p>Een herbruikbare JSON-LD context definitie voor dit applicatieprofiel is terug te vinden op:
+                              <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
+                                 {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
+                           </p>
+                        {% endblock %}
+                     </div>
+                     <div class="vl-region vl-region--no-space-top" id="shacl">
+                        <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
+                        (niet normatief)
+                        {% block shacl %}
+                           <p>Een herbruikbare SHACL template definitie voor dit applicatieprofiel is terug te vinden op:
+                              <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
+                                 {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
+                           </p>
+                        {% endblock %}
+                     </div>
+                     <div class="vl-region vl-region--no-space-top" id="mappingext">
+                        <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Gebruikte (externe) terminologie</h2>
+                        <p>Deze sectie geeft een overzicht hoe terminologie uit vocabularia is gebruikt in dit applicatieprofiel.
+                        </p>
+                        <p>
+                           Dit applicatieprofiel steunt op termen uit deze eigen beheerde vocabularia:
+                           <ul>
+                              {% for ns in data.metadata.inDomainNamespaces %}
+                                 <li>
+                                    <a href="{{ ns }}">{{ ns }}</a>
+                                 </li>
+                              {% endfor %}
+                           </ul>
+                        </p>
+                        <p>Voor termen uit vocabularia buiten de namespace {{ data.metadata.uridomain }} neemt de vorm aan van een mapping: voor
+                           de opgesomde termen in deze sectie is er gekozen om een term identifier (de URI) te gebruiken uit vocabularia die niet
+                           onder het beheer van Data.vlaanderen.be vallen.
+                        </p>
+                        <p>Deze vorm van hergebruik is het zich akkoord verklaren met de achterliggende definitie, labels en beperkingen
+                           geassocieerd met de URI in de context van dit applicatieprofiel. Dat betekent dat men de bovenstaande definities, labels
+                           en gebruiksnotas niet in tegenspraak zouden moeten zijn met deze van de URI.
+                        </p>
+                        <p>Deze mapping is echter een keuze geldig voor dit applicatieprofiel. Maar het vormt een sterke suggestie om deze
+                           mapping ook toe te passen in andere, aansluitende domeinen. Een wijziging aan de mapping is geen semantische wijziging
+                           van het appplicatieprofiel, echter het heeft mogelijks een grote implementatieimpact. Met onderstaande mapping is de
+                           impact is duidelijk en eenduidig te beschrijven.
+                        </p>
+                        <p>Merk op, dat de nood om een mapping wijziging door te voeren ook dikwijls ook semantische aanpassingen met zich mee
+                           brengt. Daarom is het aangewezen om wijzingen in het normale veranderingsbeheer van de standaard op te nemen.
+                        </p>
+                        <table class="definition external">
+                           <thead>
+                              <tr>
+                                 <th>term</th>
+                                 <th>URI</th>
+                              </tr>
+                           </thead>
+                           <tbody>
                               {% for entity in data.classes %}
                                  {% if entity.applicationProfileLabel[language] %}
-                                    {% set entitylabel = entity.applicationProfileLabel[language] %}
-                                 {% else %}
-                                    {% set entitylabel = "ERROR" %}
-                                 {% endif %}
-                                 {% if  entity.id != "http://www.w3.org/2004/02/skos/core#Concept" %}
-                                    {{ renderentity(entity, entitylabel) }}
-                                 {% endif %}
-                              {% endfor %}
-                           </div>
-                           {% block codelijsten2 %}
-                              <div class="vl-region vl-region--no-space-top">
-                                 <h2 class="vl-title--h2">Codelijsten</h2>
-                                 De klassen, hieronder opgelijst, zijn de codelijsten die expliciet vermeld zijn als klasse in dit applicatieprofiel.
-                                    <p/>
-                                 {% for entity in data.classes %}
-                                    {% if entity.applicationProfileLabel[language] %}
-                                       {% set entitylabel = entity.applicationProfileLabel[language] %}
-                                    {% else %}
-                                       {% set entitylabel = "ERROR" %}
-                                    {% endif %}
-                                    {% if  entity.id == "http://www.w3.org/2004/02/skos/core#Concept" %}
-                                       {{ renderentity(entity, entitylabel) }}
-                                    {% endif %}
-                                 {% endfor %}
-                              </div>
-                           {% endblock codelijsten2 %}
-                           {% if data.dataTypes %}
-                              <div class="vl-region vl-region--no-space-top">
-                                 <h2 class="vl-title--h2">Datatypes</h2>
-                              </div>
-                              {% for dataType in data.dataTypes %}
-                                 {% if dataType.applicationProfileLabel[language] %}
-                                    {% set dataTypelabel = dataType.applicationProfileLabel[language] %}
-                                 {% else %}
-                                    {% set dataTypelabel = "ERROR" %}
-                                 {% endif %}
-                                 <div class="vl-region vl-region--no-space-top">
-                                    <h3 class="vl-title--h3" id="{{ dataType.id }}">
-                                       <a href="{{ dataType.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ dataType.id }}" id="{{ dataTypelabel | generateAnchorTag() }}" data-vl-tooltip-placement="right">
-                                          {{ dataTypelabel }}</a>
-                                    </h3>
-                                    <div class="vl-region vl-region--no-space-top">
-                                       <dl>
-                                          <dt>Beschrijving</dt>
-                                          <dd>
-                                             {% if dataType.applicationProfileDefinition[language] %}
-                                                {{ dataType.applicationProfileDefinition[language] }}
-                                             {% endif %}
-                                          </dd>
-                                          {% if dataType.applicationProfileUsageNote[language] %}
-                                             <dt>Gebruik</dt>
-                                             <dd>
-                                                {{ dataType.applicationProfileUsageNote[language] | safe }}
-                                             </dd>
-                                          {% endif %}
-                                          {% if ((dataType.parents | length) > 0 ) %}
-                                             <dt>Subklasse van</dt>
-                                             <dd>
-                                                {%- for parent in dataType['parents'] %}
-                                                   <a href="#{{ parent.applicationProfileLabel[language] | generateAnchorTag() }}">
-                                                      {{ parent.applicationProfileLabel[language] }}</a>
-                                                   {% if not loop.last %},
-                                                   {% endif %}
-                                                {%- endfor %}
-                                             </dd>
-                                          {% endif %}
-                                          <dt>Eigenschappen</dt>
-                                          {% if ((dataType.properties | length) > 0 ) %}
-                                             <dd>Voor dit datatype zijn de volgende eigenschappen gedefinieerd:
-                                                {%- for prop in dataType['properties'] %}
-                                                   <a href="#{{ dataTypelabel | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ prop.applicationProfileLabel[language] }}</a>
-                                                   {% if not loop.last %},
-                                                   {% endif %}
-                                                {%- endfor %}.
-                                             </dd>
-                                          {% else %}
-                                             <dd>Voor dit datatype zijn geen eigenschappen gedefinieerd.</dd>
-                                          {% endif %}
-                                       </dl>
-                                       {% if ((dataType.properties | length) > 0 ) %}
-                                          <div class="vl-u-table-overflow">
-                                             <table class="vl-data-table">
-                                                <thead>
-                                                   <tr class="vl-data-table__header">
-                                                      <th class="vl-data-table__header-title data-table__header-title--sortable-active">Eigenschap</th>
-                                                      <th class="vl-data-table__header-title">Verwacht Type</th>
-                                                      <th class="vl-data-table__header-title">Kardinaliteit</th>
-                                                      <th class="vl-data-table__header-title">Beschrijving</th>
-                                                      <th class="vl-data-table__header-title">Gebruik</th>
-                                                      <th class="vl-data-table__header-title">Codelijst</th>
-                                                   </tr>
-                                                </thead>
-                                                <tbody class="supertype">
-                                                   {% for prop in dataType['properties'] %}
-                                                      {% if prop.applicationProfileLabel[language] %}
-                                                         {% set proplabel = prop.applicationProfileLabel[language] %}
-                                                      {% else %}
-                                                         {% set proplabel = "ERROR" %}
-                                                      {% endif %}
-                                                      <tr tr id="{{ dataTypelabel | generateAnchorTag(proplabel) }}" typeof="rdfs:Property" resource="{{ prop.uri }}">
-                                                         <td>
-                                                            <code property="rdfs:label">
-                                                               <a href="{{ prop.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.id }}" data-vl-tooltip-placement="right">
-                                                                  {{ proplabel }}</a>
-                                                            </code>
-                                                         </td>
-                                                         <td>
-                                                            {% if prop.range %}
-                                                               {% if prop.range.applicationProfileLabel[language] %}
-                                                                  {% if prop.range.listedInDocument %}
-                                                                     <a href="#{{ prop.range.applicationProfileLabel[language] | generateAnchorTag() }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.range.applicationProfileLabel[language] }}" data-vl-tooltip-placement="right">
-                                                                        {{ prop.range.applicationProfileLabel[language] }}</a>
-                                                                  {% else %}
-                                                                     <a href="{{ prop.range.id }}" class="js-vl-tooltip" data-vl-tooltip-content="{{ prop.range.id }}" data-vl-tooltip-placement="right">
-                                                                        {{ prop.range.applicationProfileLabel[language] }}</a>
-                                                                  {% endif %}
-                                                               {% endif %}
-                                                            {% endif %}
-                                                         </td>
-                                                         <td>
-                                                            {% if prop.minCount == prop.maxCount %}
-                                                               {% set cardinality = prop.minCount %}
-                                                            {% else %}
-                                                               {% set cardinality = prop.minCount + '..' + prop.maxCount %}
-                                                            {% endif %}
-                                                            {{ cardinality }}
-                                                         </td>
-                                                         <td property="rdfs:comment">
-                                                            {% if prop.applicationProfileDefinition[language] %}
-                                                               {{ prop.applicationProfileDefinition[language] }}
-                                                            {% endif %}
-                                                         </td>
-                                                         <td property="vann:usageNote">
-                                                            {% if prop.applicationProfileUsageNote[language] %}
-                                                               {{ prop.applicationProfileUsageNote[language] | safe }}
-                                                            {% endif %}
-                                                         </td>
-                                                         <td>
-                                                            {% if prop.codelist %}
-                                                               <a href="{{ prop.codelist }}">Link</a>
-                                                            {% endif %}
-                                                         </td>
-                                                      </tr>
-                                                   {% endfor %}
-                                                </tbody>
-                                             </table>
-                                          </div>
-                                       {% endif %}
-                                    </div>
-                                 </div>
-                              {% endfor %}
-                           </div>
-                        {% endif %}
-                        <div class="vl-region vl-region--no-space-top" id="jsonld">
-                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
-                           (niet normatief)
-                           {% block jsonld %}
-                              <p>Een herbruikbare JSON-LD context definitie voor dit applicatieprofiel is terug te vinden op:
-                                 <a href="{{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld" target="_blank">
-                                    {{ data.metadata.documentroot }}/context/{{ data.metadata.filename }}.jsonld</a>
-                              </p>
-                           {% endblock %}
-                        </div>
-                        <div class="vl-region vl-region--no-space-top" id="shacl">
-                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
-                           (niet normatief)
-                           {% block shacl %}
-                              <p>Een herbruikbare SHACL template definitie voor dit applicatieprofiel is terug te vinden op:
-                                 <a href="{{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl" target="_blank">
-                                    {{ data.metadata.documentroot }}/shacl/{{ data.metadata.filename }}-SHACL.ttl</a>
-                              </p>
-                           {% endblock %}
-                        </div>
-                        <div class="vl-region vl-region--no-space-top" id="mappingext">
-                           <h2 class="vl-title--h2" aria-level="1" role="heading" id="h2_sotd">Gebruikte (externe) terminologie</h2>
-                           <p>Deze sectie geeft een overzicht hoe terminologie uit vocabularia is gebruikt in dit applicatieprofiel.
-                           </p>
-                           <p>
-                              Dit applicatieprofiel steunt op termen uit deze eigen beheerde vocabularia:
-                              <ul>
-                                 {% for ns in data.metadata.inDomainNamespaces %}
-                                    <li>
-                                       <a href="{{ ns }}">{{ ns }}</a>
-                                    </li>
-                                 {% endfor %}
-                              </ul>
-                           </p>
-                           <p>Voor termen uit vocabularia buiten de namespace {{ data.metadata.uridomain }} neemt de vorm aan van een mapping: voor
-                              de opgesomde termen in deze sectie is er gekozen om een term identifier (de URI) te gebruiken uit vocabularia die niet
-                              onder het beheer van Data.vlaanderen.be vallen.
-                           </p>
-                           <p>Deze vorm van hergebruik is het zich akkoord verklaren met de achterliggende definitie, labels en beperkingen
-                              geassocieerd met de URI in de context van dit applicatieprofiel. Dat betekent dat men de bovenstaande definities, labels
-                              en gebruiksnotas niet in tegenspraak zouden moeten zijn met deze van de URI.
-                           </p>
-                           <p>Deze mapping is echter een keuze geldig voor dit applicatieprofiel. Maar het vormt een sterke suggestie om deze
-                              mapping ook toe te passen in andere, aansluitende domeinen. Een wijziging aan de mapping is geen semantische wijziging
-                              van het appplicatieprofiel, echter het heeft mogelijks een grote implementatieimpact. Met onderstaande mapping is de
-                              impact is duidelijk en eenduidig te beschrijven.
-                           </p>
-                           <p>Merk op, dat de nood om een mapping wijziging door te voeren ook dikwijls ook semantische aanpassingen met zich mee
-                              brengt. Daarom is het aangewezen om wijzingen in het normale veranderingsbeheer van de standaard op te nemen.
-                           </p>
-                           <table class="definition external">
-                              <thead>
-                                 <tr>
-                                    <th>term</th>
-                                    <th>URI</th>
-                                 </tr>
-                              </thead>
-                              <tbody>
-                                 {% for entity in data.classes %}
-                                    {% if entity.applicationProfileLabel[language] %}
-                                       {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
-                                          <tr>
-                                             <td>
-                                                <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
-                                             </td>
-                                             <td>
-                                                <b>
-                                                   <code>{{ entity.id }}</code>
-                                                </b>
-                                             </td>
-                                          </tr>
-                                       {% endif %}
-                                       {% for prop in entity.properties %}
-                                          {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
-                                             {% if prop.applicationProfileLabel[language] %}
-                                                <tr>
-                                                   <td>
-                                                      <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
-                                                   </td>
-                                                   <td>
-                                                      <code>{{ prop.id }}</code>
-                                                   </td>
-                                                </tr>
-                                             {% endif %}
-                                          {% endif %}
-                                       {% endfor %}
-                                    {% endif %}
-                                 {% endfor %}
-                                 {% for entity in data.dataTypes %}
-                                    {% if entity.applicationProfileLabel[language] %}
-                                       {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
-                                          <tr>
-                                             <td>
-                                                <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
-                                             </td>
-                                             <td>
+                                    {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                       <tr>
+                                          <td>
+                                             <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
+                                          </td>
+                                          <td>
+                                             <b>
                                                 <code>{{ entity.id }}</code>
-                                             </td>
-                                          </tr>
-                                       {% endif %}
-                                       {% for prop in entity.properties %}
-                                          {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
-                                             {% if prop.applicationProfileLabel[language] %}
-                                                <tr>
-                                                   <td>
-                                                      <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
-                                                   </td>
-                                                   <td>
-                                                      <code>{{ prop.id }}</code>
-                                                   </td>
-                                                </tr>
-                                             {% endif %}
-                                          {% endif %}
-                                       {% endfor %}
+                                             </b>
+                                          </td>
+                                       </tr>
                                     {% endif %}
-                                 {% endfor %}
-                              </tbody>
-                           </table>
-                        </div>
+                                    {% for prop in entity.properties %}
+                                       {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                          {% if prop.applicationProfileLabel[language] %}
+                                             <tr>
+                                                <td>
+                                                   <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
+                                                </td>
+                                                <td>
+                                                   <code>{{ prop.id }}</code>
+                                                </td>
+                                             </tr>
+                                          {% endif %}
+                                       {% endif %}
+                                    {% endfor %}
+                                 {% endif %}
+                              {% endfor %}
+                              {% for entity in data.dataTypes %}
+                                 {% if entity.applicationProfileLabel[language] %}
+                                    {% if entity.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                       <tr>
+                                          <td>
+                                             <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag() }}">{{ entity.applicationProfileLabel[language] }}</a>
+                                          </td>
+                                          <td>
+                                             <code>{{ entity.id }}</code>
+                                          </td>
+                                       </tr>
+                                    {% endif %}
+                                    {% for prop in entity.properties %}
+                                       {% if prop.scope == "https://data.vlaanderen.be/id/concept/scope/External" %}
+                                          {% if prop.applicationProfileLabel[language] %}
+                                             <tr>
+                                                <td>
+                                                   <a href="#{{ entity.applicationProfileLabel[language] | generateAnchorTag(prop.applicationProfileLabel[language]) }}">{{ entity.applicationProfileLabel[language] }}.{{ prop.applicationProfileLabel[language] }}</a>
+                                                </td>
+                                                <td>
+                                                   <code>{{ prop.id }}</code>
+                                                </td>
+                                             </tr>
+                                          {% endif %}
+                                       {% endif %}
+                                    {% endfor %}
+                                 {% endif %}
+                              {% endfor %}
+                           </tbody>
+                        </table>
                      </div>
-                     <div class="col--2-12 vl-col--12-12--s vl-push--1-12" id="sideNav">
-                        <nav class="vl-side-navigation vl-u-sticky vl-region vl-region" id="sideNav">
-                           <div class="vl-side-navigation__content js-scrollspy">
-                              <div class="vl-side-navigation__group">
-                                 <ul>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#introduction">Inleiding</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#summary">Samenvatting</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#status">Status van dit document</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#license">Licentie</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#conformance">Conformiteit</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#overview">Overzicht</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#jsonld">JSON-LD Context</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#shacl">SHACL template</a>
-                                    </li>
-                                    <li class="vl-side-navigation__item">
-                                       <a href="#mappingext">Externe terminologie</a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </nav>
-                     </div>
-                     <!-- End page content -->
                   </div>
+                  <div class="vl-col--3-12 vl-col--12-12--s push--1-12" id="sideNav">
+                     <nav class="vl-side-navigation vl-u-sticky vl-region" id="sideNav">
+                        <div class="vl-side-navigation__content js-scrollspy">
+                           <div class="vl-side-navigation__group">
+                              <ul>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#introduction">Inleiding</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#summary">Samenvatting</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#status">Status van dit document</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#license">Licentie</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#conformance">Conformiteit</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#overview">Overzicht</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#jsonld">JSON-LD Context</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#shacl">SHACL template</a>
+                                 </li>
+                                 <li class="vl-side-navigation__item">
+                                    <a href="#mappingext">Externe terminologie</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </nav>
+                  </div>
+                  <!-- End page content -->
                </div>
             </div>
          </div>
-         <div
-            id="vlaanderen-footer">
-            <!-- insert your Vlaanderen-footer-code here -->
-            <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>
-            <!-- End global footer-->
-         </div>
-         <style>
-            .external {
-               line-break: anywhere;
+      </div>
+      <div
+         id="vlaanderen-footer">
+         <!-- insert your Vlaanderen-footer-code here -->
+         <script src="https://prod.widgets.burgerprofiel.vlaanderen.be/api/v1/widget/f1d7f80f-ad17-4f25-92b4-027a99785068/embed"></script>
+         <!-- End global footer-->
+      </div>
+      <style>
+         .external {
+            line-break: anywhere;
+         }
+         @media screen {
+            /* hide from IE3 */
+            a[href]:hover {
+               background: #ffa
             }
-            @media screen {
-               /* hide from IE3 */
-               a[href]:hover {
-                  background: #ffa
-               }
-            }
-            p {
-               text-align: justify;
-            }
-            tr:nth-child(even) td {
-               background-color: #eee;
-            }
-            dt,
-            dd {
-               margin-top: 0;
-               margin-bottom: 0
-            } /* opera 3.50 */
-            dt {
-               font-weight: bold
-            }
-            pre,
-            code {
-               font-family: monospace
-            } /* navigator 4 requires this */
-            em {
-               font-style: italic;
-            }
-            img {
-               width: 100%;
-            }
-            .vl-tooltip {
-               max-width: 128rem;
-            }
-         </style>
-         <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
-         <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
-      </body>
-   </html>
-</html>
+         }
+         p {
+            text-align: justify;
+         }
+         tr:nth-child(even) td {
+            background-color: #eee;
+         }
+         dt,
+         dd {
+            margin-top: 0;
+            margin-bottom: 0
+         } /* opera 3.50 */
+         dt {
+            font-weight: bold
+         }
+         pre,
+         code {
+            font-family: monospace
+         } /* navigator 4 requires this */
+         em {
+            font-style: italic;
+         }
+         img {
+            width: 100%;
+         }
+         .vl-tooltip {
+            max-width: 128rem;
+         }
+      </style>
+      <script src="https://data.vlaanderen.be/assets/dist/core.js"></script>
+      <script src="https://data.vlaanderen.be/assets/dist/tooltip.js"></script>
+   </body>
+</html></html>
