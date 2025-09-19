@@ -1,6 +1,7 @@
 [
   {
-    "name": "onbegroeid-voorkomen-ap",
+    "name": "onbegroeidvoorkomen",
+    "prefix": "openbaardomein",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-OnbegroeidVoorkomen",
@@ -17,8 +18,8 @@
   },
   {
     "name": "onbegroeidvoorkomen",
-    "type": "voc",
     "prefix": "openbaardomein",
+    "type": "voc",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-OnbegroeidVoorkomen",
     "template": "openbaar-domein-uitbreiding-voc.j2",
@@ -33,7 +34,8 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-onbegroeid-voorkomen/"
   },
   {
-    "name": "begroeid-voorkomen-ap",
+    "name": "begroeidvoorkomen",
+    "prefix": "openbaardomein",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
@@ -50,8 +52,8 @@
   },
   {
     "name": "begroeidvoorkomen",
-    "type": "voc",
     "prefix": "openbaardomein",
+    "type": "voc",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-BegroeidVoorkomen",
     "template": "openbaar-domein-uitbreiding-voc.j2",
@@ -66,7 +68,8 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-uitbreiding-begroeid-voorkomen/"
   },
   {
-    "name": "watervoorkomen-ap",
+    "name": "watervoorkomen",
+    "prefix": "openbaardomein",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "OSLO-OpenbaarDomein-Taxonomie-WaterVoorkomen",
