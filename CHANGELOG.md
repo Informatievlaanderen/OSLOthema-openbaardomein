@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Openbaar Domain Model: Tags `ap-definition-nl` and `ap-lavel-nl` to GBIFcode 
+
 ### Changed
 
 - Openbaar Domain Model: PascalCase and CamelCase
@@ -14,7 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Openbaar Domain Model: Add missing dot at end of sentences
 - Openbaar Domain Model: Replace http://schema.org with https://schema.org
 - Openbaar Domain Model: Remove empty `ap-usage-note` values
-
 
 ## 2025-03-13
 
