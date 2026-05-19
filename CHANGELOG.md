@@ -43,6 +43,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - BegroeidVoorkomen: Add missing dot at end of sentences
 - BegroeidVoorkomen: Replace http://schema.org with https://schema.org
 - BegroeidVoorkomen: Remove empty `ap-usage-note` values
+- OnbegroeidVoorkomen: PascalCase and CamelCase
+- OnbegroeidVoorkomen: Replace abbreviations
+- OnbegroeidVoorkomen: Add missing dot at end of sentences
+- OnbegroeidVoorkomen: Replace http://schema.org with https://schema.org
+- OnbegroeidVoorkomen: Remove empty `ap-usage-note` values
 
 ## 2025-03-13
 
