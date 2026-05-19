@@ -16,9 +16,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Openbaar Domain Model: PascalCase and CamelCase
 - Openbaar Domain Model: Replace abbreviations
 - Openbaar Domain Model: Add missing dot at end of sentences
-- 
 - Openbaar Domain Model: Replace http://schema.org with https://schema.org
 - Openbaar Domain Model: Remove empty `ap-usage-note` values
+- Gebied: PascalCase and CamelCase
+- Gebied: Replace abbreviations
+- Gebied: Add missing dot at end of sentences
+- Gebied: Replace http://schema.org with https://schema.org
+- Gebied: Remove empty `ap-usage-note` values
 
 ## 2025-03-13
 
