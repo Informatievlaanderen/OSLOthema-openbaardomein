@@ -28,6 +28,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Terrein: Add missing dot at end of sentences
 - Terrein: Replace http://schema.org with https://schema.org
 - Terrein: Remove empty `ap-usage-note` values
+- Waterdeel: PascalCase and CamelCase
+- Waterdeel: Replace abbreviations
+- Waterdeel: Add missing dot at end of sentences
+- Waterdeel: Replace http://schema.org with https://schema.org
+- Waterdeel: Remove empty `ap-usage-note` values
 
 ## 2025-03-13
 
