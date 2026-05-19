@@ -38,6 +38,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WaterVoorkomen: Add missing dot at end of sentences
 - WaterVoorkomen: Replace http://schema.org with https://schema.org
 - WaterVoorkomen: Remove empty `ap-usage-note` values
+- BegroeidVoorkomen: PascalCase and CamelCase
+- BegroeidVoorkomen: Replace abbreviations
+- BegroeidVoorkomen: Add missing dot at end of sentences
+- BegroeidVoorkomen: Replace http://schema.org with https://schema.org
+- BegroeidVoorkomen: Remove empty `ap-usage-note` values
 
 ## 2025-03-13
 
