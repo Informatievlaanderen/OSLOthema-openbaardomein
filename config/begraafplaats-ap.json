@@ -16,7 +16,7 @@
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden/openbaar-domein-2-0-0-applicatieprofiel-begraafplaatsen/"
   },
   {
-    "name": "begraafplaatsenbeheer-ap",
+    "name": "begraafplaatsenbeheer",
     "type": "ap",
     "eap": "OSLO-Openbaar-Domein.eap",
     "diagram": "Begraafplaatsenbeheer",
