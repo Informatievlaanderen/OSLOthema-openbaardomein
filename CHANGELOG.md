@@ -76,6 +76,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Infrastructuur: Replace http://schema.org with https://schema.org
 - Infrastructuur: Remove empty `ap-usage-note` values
 - Infrastructuur: Capitalise sentences
+- Enum Materialen: Add definition tag
 
 ## 2025-03-13
 
