@@ -62,6 +62,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Begraafplaats: Replace http://schema.org with https://schema.org
 - Begraafplaats: Remove empty `ap-usage-note` values
 - Begraafplaats: Capitalise sentences
+- Begraafplaatsenbeheer: PascalCase and CamelCase
+- Begraafplaatsenbeheer: Replace abbreviations
+- Begraafplaatsenbeheer: Add missing dot at end of sentences
+- Begraafplaatsenbeheer: Replace http://schema.org with https://schema.org
+- Begraafplaatsenbeheer: Remove empty `ap-usage-note` values
+- Begraafplaatsenbeheer: Capitalise sentences
 
 ## 2025-03-13
 
