@@ -68,6 +68,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Begraafplaatsenbeheer: Replace http://schema.org with https://schema.org
 - Begraafplaatsenbeheer: Remove empty `ap-usage-note` values
 - Begraafplaatsenbeheer: Capitalise sentences
+- Begraafplaatsenbeheer: Relationship Collectie -- bevat --> FysiekObject
+- Begraafplaatsenbeheer: Overview diagram
 
 ## 2025-03-13
 
