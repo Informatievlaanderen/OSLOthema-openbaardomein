@@ -50,6 +50,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - OnbegroeidVoorkomen: Replace http://schema.org with https://schema.org
 - OnbegroeidVoorkomen: Remove empty `ap-usage-note` values
 - Split config files in separate AP and VOC files
+- Vegetatie: PascalCase and CamelCase
+- Vegetatie: Replace abbreviations
+- Vegetatie: Add missing dot at end of sentences
+- Vegetatie: Replace http://schema.org with https://schema.org
+- Vegetatie: Remove empty `ap-usage-note` values
+- Vegetatie: Capitalise sentences
 
 ## 2025-03-13
 
