@@ -70,6 +70,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Begraafplaatsenbeheer: Capitalise sentences
 - Begraafplaatsenbeheer: Relationship Collectie -- bevat --> FysiekObject
 - Begraafplaatsenbeheer: Overview diagram
+- Infrastructuur: PascalCase and CamelCase
+- Infrastructuur: Replace abbreviations
+- Infrastructuur: Add missing dot at end of sentences
+- Infrastructuur: Replace http://schema.org with https://schema.org
+- Infrastructuur: Remove empty `ap-usage-note` values
+- Infrastructuur: Capitalise sentences
 
 ## 2025-03-13
 
